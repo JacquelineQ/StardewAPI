@@ -1,0 +1,27 @@
+{
+  "name": "stardewapi",
+  "version": "1.0.0",
+  "description": "This an unoffical Stardew Valley API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacquelineQ/StardewAPI.git"
+  },
+  "keywords": [],
+  "author": "Jacqueline Quackenbush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacquelineQ/StardewAPI/issues"
+  },
+  "homepage": "https://github.com/JacquelineQ/StardewAPI#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
