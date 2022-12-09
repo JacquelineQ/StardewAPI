@@ -5,3 +5,4 @@ All info from the official Stardew Valley wiki at: https://stardewvalleywiki.com
 Under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) Licencse at: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 Everything Stardew Valley related is the property of Concerned Ape and not myself.
+    I am merely an enthusiastic fangirl. 

@@ -1,9 +1,13 @@
 const express = require('express');
+const path = require('path');
+const villagers = require('./villagers');
 
 const app = express();
 
-app.get('/', (req, res) => {
-    res.send('Hello from Stardew Valley!!');
+
+//Gets all Villagers
+app.get('/api/villagers', (req, res) => {
+    res.json(villagers);
 })
 
 const PORT = process.env.PORT || 5000;
