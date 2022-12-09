@@ -1,273 +1,273 @@
 const villagers = [
 {
     name: 'Abigail',
-    gender: 'Female',
-    giftable: 'Yes',
-    marriage: 'Yes'  
+    gender: 'female',
+    giftable: 'yes',
+    marriage: 'yes'  
 },
 {
     name: 'Alex',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'Yes'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'yes'
 },
 {
     name: 'Birdie',
-    gender: 'Female',
-    giftable: 'No',
-    marriage: 'No'
+    gender: 'female',
+    giftable: 'no',
+    marriage: 'no'
 },
 {
     name: 'Bouncer',
-    gender: 'Male',
-    giftable: 'No',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'no',
+    marriage: 'no'
 },
 {
     name: 'Caroline',
-    gender: 'Female',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'female',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Clint',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Demetrius',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Dwarf',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Elliott',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'Yes'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'yes'
 },
 {
     name: 'Emily',
-    gender: 'Female',
-    giftable: 'Yes',
-    marriage: 'Yes'
+    gender: 'female',
+    giftable: 'yes',
+    marriage: 'yes'
 },
 {
     name: 'Evelyn',
-    gender: 'Female',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'female',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'George',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Gil',
-    gender: 'Male',
-    giftable: 'No',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'no',
+    marriage: 'no'
 },
 {
     name: 'Governor',
-    gender: 'Male',
-    giftable: 'No',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'no',
+    marriage: 'no'
 },
 {
     name: 'Grandpa',
-    gender: 'Male',
-    giftable: 'No',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'no',
+    marriage: 'no'
 },
 {
     name: 'Gunther',
-    gender: 'Male',
-    giftable: 'No',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'no',
+    marriage: 'no'
 },
 {
     name: 'Gus',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Haley',
-    gender: 'Female',
-    giftable: 'Yes',
-    marriage: 'Yes'
+    gender: 'female',
+    giftable: 'yes',
+    marriage: 'yes'
 },
 {
     name: 'Harvey',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'Yes'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'yes'
 },
 {
     name: 'Henchman',
-    gender: 'Male',
-    giftable: 'No',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'no',
+    marriage: 'no'
 },
 {
     name: 'Jas',
-    gender: 'Female',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'female',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Jodi',
-    gender: 'Female',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'female',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Kent',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Krobus',
-    gender: 'Male',
-    giftable: 'Yes',
+    gender: 'male',
+    giftable: 'yes',
     marriage: 'no, but can be a roommate'
 },
 {
     name: 'Leah',
-    gender: 'Female',
-    giftable: 'Yes',
-    marriage: 'Yes'
+    gender: 'female',
+    giftable: 'yes',
+    marriage: 'yes'
 },
 {
     name: 'Leo',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Lewis',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Linus',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Marlon',
-    gender: 'Male',
-    giftable: 'No',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'no',
+    marriage: 'no'
 },
 {
     name: 'Marnie',
-    gender: 'Female',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'female',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Maru',
-    gender: 'Female',
-    giftable: 'Yes',
-    marriage: 'Yes'
+    gender: 'female',
+    giftable: 'yes',
+    marriage: 'yes'
 },
 {
     name: 'Morris',
-    gender: 'Male',
-    giftable: 'No',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'no',
+    marriage: 'no'
 },
 {
     name: 'Mr. Qi',
-    gender: 'Male',
-    giftable: 'No',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'no',
+    marriage: 'no'
 },
 {
     name: 'Pam',
-    gender: 'Female',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'female',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Pierre',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Robin',
-    gender: 'Female',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'female',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Sam',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'Yes'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'yes'
 },
 {
     name: 'Sandy',
-    gender: 'Female',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'female',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Sebastian',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'Yes'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'yes'
 },
 {
     name: 'Shane',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'Yes'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'yes'
 },
 {
     name: 'Penny',
-    gender: 'Female',
-    giftable: 'Yes',
-    marriage: 'Yes'
+    gender: 'female',
+    giftable: 'yes',
+    marriage: 'yes'
 },
 {
     name: 'Professor Snail',
-    gender: 'Male',
-    giftable: 'No',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'no',
+    marriage: 'no'
 },
 {
     name: 'Vincent',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Willy',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'no'
 },
 {
     name: 'Wizard',
-    gender: 'Male',
-    giftable: 'Yes',
-    marriage: 'No'
+    gender: 'male',
+    giftable: 'yes',
+    marriage: 'no'
 }
 ];
 
