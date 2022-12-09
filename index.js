@@ -13,8 +13,10 @@ app.get('/api/villagers', (req, res) => {
 
 //Get single Villager by Name
 app.get('/api/villagers/:name', (req, res) => {
-    res.json(villagers.find(villager => villager.name === req.params.name));
+    res.json(villagers.find(villager => villager.name.toLowerCase() === req.params.name.toLowerCase()));
 });
+
+
 
 const PORT = process.env.PORT || 5000;
 
