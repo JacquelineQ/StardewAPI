@@ -1,4 +1,6 @@
-This an unoffical Stardew Valley API.
+<img src="https://stardewvalley.net/wp-content/uploads/2017/12/main_logo.png" />
+
+This an unoffical Stardew Valley REST API.
 
 All info from the official Stardew Valley wiki at: https://stardewvalleywiki.com/Stardew_Valley_Wiki
 
