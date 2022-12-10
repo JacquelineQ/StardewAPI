@@ -597,6 +597,45 @@ const fish = [
     behavior: "",
     imgSrc: ""
 },
+{
+    name: "Midnight-Squid",
+    type: "night-market",
+    description: "",
+    location: "",
+    time: "",
+    season: "",
+    weather: "",
+    size: "",
+    difficulty: "",
+    behavior: "",
+    imgSrc: ""
+},
+{
+    name: "Spook-Fish",
+    type: "night-market",
+    description: "",
+    location: "",
+    time: "",
+    season: "",
+    weather: "",
+    size: "",
+    difficulty: "",
+    behavior: "",
+    imgSrc: ""
+},
+{
+    name: "Blobfish",
+    type: "night-market",
+    description: "",
+    location: "",
+    time: "",
+    season: "",
+    weather: "",
+    size: "",
+    difficulty: "",
+    behavior: "",
+    imgSrc: ""
+},
 ];
 
 module.exports = fish;
