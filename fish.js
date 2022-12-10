@@ -2,33 +2,33 @@ const fish = [
 {
     name: "Albacore",
     type: "fishing-pole",
-    description: "",
-    location: "",
-    time: "",
-    season: "",
-    weather: "",
-    size: "",
-    difficulty: "",
-    behavior: "",
-    imgSrc: ""
+    description: "Prefers temperature 'edges' where cool and warm water meet.",
+    location: "Ocean",
+    time: ["6am-11am", "6pm-2am"],
+    season: ["Fall", "Winter"],
+    weather: "Any",
+    size: "20in-41in",
+    difficulty: "60",
+    behavior: "Mixed",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/e/e1/Albacore.png"
 },
 {
     name: "Anchovy",
     type: "fishing-pole",
-    description: "",
-    location: "",
-    time: "",
-    season: "",
-    weather: "",
-    size: "",
-    difficulty: "",
-    behavior: "",
-    imgSrc: ""
+    description: "A small silver fish found in the ocean.",
+    location: "Ocean",
+    time: "Any",
+    season: ["Spring", "Fall"],
+    weather: "Any",
+    size: "1in-17in",
+    difficulty: "30",
+    behavior: "dart",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/7/79/Anchovy.png"
 },
 {
     name: "Blue-Discus",
     type: "fishing-pole",
-    description: "",
+    description: "A brightly colored tropical fish that is popular in aquariums.",
     location: "",
     time: "",
     season: "",
@@ -36,7 +36,7 @@ const fish = [
     size: "",
     difficulty: "",
     behavior: "",
-    imgSrc: ""
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/e/ee/Blue_Discus.png"
 },
 {
     name: "Bream",

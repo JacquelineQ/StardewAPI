@@ -4,6 +4,7 @@ const path = require('path');
 const villagers = require('./villagers');
 const areas = require('./areas');
 const fish = require('./fish');
+const artifacts = require('./artifacts');
 
 const app = express();
 
@@ -33,6 +34,11 @@ app.get('/api/fish', (req, res) => {
 //Get single fish by name
 app.get('/api/fish/:name', (req, res) => {
     res.json(fish.find(fish => fish.name.toLowerCase() === req.params.name.toLowerCase()));
+});
+
+//Get fish by type *Can't seem to make filter work, is it because the singular of fish is still fish???
+app.get('/api/fish/:type', (req, res) => {
+    res.json(fish.filter(fish => fish.type.toLowerCase() === req.params.type.toLowerCase()));
 });
 
 //Gets single area of the valley by name, possibly use split and join
