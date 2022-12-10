@@ -5,6 +5,7 @@ const villagers = require('./villagers');
 const areas = require('./areas');
 const fish = require('./fish');
 const artifacts = require('./artifacts');
+const minerals = require('./minerals');
 
 const app = express();
 
