@@ -25,6 +25,16 @@ app.get('/api/areas', (req, res) => {
     res.json(areas);
 });
 
+//Get all fish
+app.get('/api/fish', (req, res) => {
+    res.json(fish);
+});
+
+//Get single fish by name
+app.get('/api/fish/:name', (req, res) => {
+    res.json(fish.find(fish => fish.name.toLowerCase() === req.params.name.toLowerCase()));
+});
+
 //Gets single area of the valley by name, possibly use split and join
 // app.get('/api/valley/:name', (req, res) => {
 //     const splitName = req.params.name.split(" ");
