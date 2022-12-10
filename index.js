@@ -8,6 +8,7 @@ const artifacts = require('./artifacts');
 const minerals = require('./minerals');
 const weapons = require('./weapons');
 const recipes = require('./recipes');
+const crops = require('./crops');
 
 const app = express();
 
