@@ -41,6 +41,15 @@ app.get('/api/fish/:type', (req, res) => {
     res.json(fish.filter(fish => fish.type.toLowerCase() === req.params.type.toLowerCase()));
 });
 
+//Get all artifacts
+app.get('/api/artifacts', (req, res) => {
+    res.json(artifacts);
+});
+
+//Get artifact by name
+app.get('/api/artifacts/:name', (req, res) => {
+    res.json(artifacts.find(artifact => artifact.name.toLowerCase() === req.params.name.toLowerCase()));
+});
 //Gets single area of the valley by name, possibly use split and join
 // app.get('/api/valley/:name', (req, res) => {
 //     const splitName = req.params.name.split(" ");
