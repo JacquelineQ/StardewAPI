@@ -5,6 +5,7 @@ const crops = [
     name: "",
     season: "",
     growTime: "",
+    recipes: [],
     imgSrc: ""
 }
 ];
