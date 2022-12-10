@@ -1,6 +1,6 @@
-const valley = [
+const areas = [
 {
-    area: "Pelican-Town",
+    name: "Pelican-Town",
     locations: [
         {
             address: "Pierre's General Store",
@@ -60,23 +60,23 @@ const valley = [
     ]
 },
 {
-    area: "The Beach"
+    name: "The-Beach"
 },
 {
-    area: "Calico Desert"
+    name: "Calico-Desert"
 },
 {
-    area: "Cindersap Forest"
+    name: "Cindersap-Forest"
 },
 {
-    area: "The Mountain"
+    name: "The-Mountain"
 },
 {
-    area: "Mutant Bug Liar"
+    name: "Mutant-Bug-Liar"
 },
 {
-    area: "Witch's Hut"
+    name: "Witch's-Hut"
 }
 ]
 
-module.exports = valley;
+module.exports = areas;

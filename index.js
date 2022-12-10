@@ -2,7 +2,8 @@ const express = require('express');
 const path = require('path');
 // const { runInNewContext } = require('vm');
 const villagers = require('./villagers');
-const valley = require('./valley');
+const areas = require('./areas');
+const fish = require('./fish');
 
 const app = express();
 
@@ -20,9 +21,16 @@ app.get('/api/villagers/:name', (req, res) => {
 
 
 //Gets all areas of the Valley
-app.get('/api/valley', (req, res) => {
-    res.json(valley);
+app.get('/api/areas', (req, res) => {
+    res.json(areas);
 });
+
+//Gets single area of the valley by name, possibly use split and join
+// app.get('/api/valley/:name', (req, res) => {
+//     const splitName = req.params.name.split(" ");
+//     const joinName = splitName.join();
+//     res.json(areas.find(area => area.name.toLowerCase() === req.params.name.toLowerCase()));
+// });
 
 
 
