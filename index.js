@@ -6,6 +6,8 @@ const areas = require('./areas');
 const fish = require('./fish');
 const artifacts = require('./artifacts');
 const minerals = require('./minerals');
+const weapons = require('./weapons');
+const recipes = require('./recipes');
 
 const app = express();
 
