@@ -243,7 +243,7 @@ const villagers = [
     name: "Krobus",
     gender: "male",
     giftable: "yes",
-    marriage: "no, but can be a roommate",
+    marriage: "yes",
     birthday: "Winter 1",
     livesIn: "The Sewers",
     address: "Krobus's Shop",

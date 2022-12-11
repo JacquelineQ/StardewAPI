@@ -18,13 +18,37 @@ app.get('/api/villagers', (req, res) => {
     res.json(villagers);
 });
 
+//Get a single villager by name
+// app.get('/api/villager', (req, res) => {
+//     const villagerByName = req.query.name;
+//     res.json(villagers.find(villager => villager.params.name === req.query.name));
+// })
 
-//Get single Villager by Name
-app.get('/api/villagers/:name', (req, res) => {
-    res.json(villagers.find(villager => villager.name.toLowerCase() === req.params.name.toLowerCase()));
+app.get('api/villagers', (req, res))
+
+// Get single Villager by Name
+// app.get('/api/villagers/:name', (req, res) => {
+//     res.json(villagers.find(villager => villager.name.toLowerCase() === req.params.name.toLowerCase()));
+// });
+
+//Get all marriage candidates
+app.get('/api/marriagecandidates/', (req, res) => {
+    res.json(villagers.filter(villager => villager.marriage === "yes"));
 });
 
+//Get All bachelors
+app.get('/api/villagers-bachelors', (req, res) => {
+    res.json(villagers.filter(villager => villager.gender === "male" && villager.marriage === "yes"));
+    // console.log(req.params.gender);
 
+});
+
+//Get All bachelorettes 
+app.get('/api/villagers-bachelorettes', (req, res) => {
+    res.json(villagers.filter(villager => villager.gender === "female" && villager.marriage === "yes"))
+})
+
+//Heres something different 
 //Gets all areas of the Valley
 app.get('/api/areas', (req, res) => {
     res.json(areas);
@@ -40,10 +64,7 @@ app.get('/api/fish/:name', (req, res) => {
     res.json(fish.find(fish => fish.name.toLowerCase() === req.params.name.toLowerCase()));
 });
 
-//Get fish by type *Can't seem to make filter work, is it because the singular of fish is still fish???
-app.get('/api/fish/:type', (req, res) => {
-    res.json(fish.filter(fish => fish.type.toLowerCase() === req.params.type.toLowerCase()));
-});
+
 
 //Get all artifacts
 app.get('/api/artifacts', (req, res) => {
