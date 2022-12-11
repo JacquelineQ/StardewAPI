@@ -13,10 +13,10 @@ const crops = require('./crops');
 const app = express();
 
 
-//Gets all Villagers
-app.get('/api/villagers', (req, res) => {
-    res.json(villagers);
-});
+// Gets all Villagers
+// app.get('/api/villagers', (req, res) => {
+//     res.json(villagers);
+// });
 
 //Get a single villager by name
 // app.get('/api/villager', (req, res) => {
@@ -24,7 +24,10 @@ app.get('/api/villagers', (req, res) => {
 //     res.json(villagers.find(villager => villager.params.name === req.query.name));
 // })
 
-app.get('api/villagers', (req, res))
+app.get('/api/villagers', (req, res) => {
+    console.log('hi');
+    console.log(req.query);
+})
 
 // Get single Villager by Name
 // app.get('/api/villagers/:name', (req, res) => {
