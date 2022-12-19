@@ -1,1 +1,79 @@
-test test test 
+Planned Tables:
+*Fish: 
+    primary-key
+    name
+    description
+    time
+    season
+    weather
+    size
+    difficulty
+    behavior
+    imgSrc 
+
+
+*Recipes:
+    primary-key 
+    name
+    ingredients 
+    restores
+    source 
+    sellPrice
+    imgSrc 
+
+Minerals
+Resources (Types: Basic, Ore, Bar)
+Monsters 
+Artifacts
+Weapons
+Trees 
+Crops (May have to add fruit from fruit trees, not sure if its organized that way in the wiki)
+Artisan Goods
+Artisan Equipment
+Foraged Items 
+Trees (common, special and fruit types)
+**Villagers/Characters* have to decide how I want o arrange/separate these
+**Areas/The Valley* Need to figure out how to organize/if I need more than one
+    Pelican Town
+        Residences
+        Blacksmith 
+        Community Center 
+        Harvery's Clinic 
+        Joja Mart 
+        Museum 
+        Pierre's 
+        The Saloon
+        The Sewers 
+    The Beach
+        Elliott's Cabin 
+        Fish Shop 
+        Tide Pools 
+    The Desert/Calico Desert 
+        Casino
+        Oasis 
+        Desert Trader 
+        Skull Cavern 
+        Three Pillars 
+        Warp Statue 
+        Sand Dragon 
+    Cindersap Forest
+        Marnie's Ranch 
+        Leah's Cottage 
+        Abandoned House
+        Wizard's Tower 
+        Secret Woods
+        Traveling Cart
+        Trash Bear (?)
+    The Mountain
+        Carpenter's Shop
+        Tent 
+        Treehouse 
+        The Mines 
+        Adventurer's Guild 
+        The Quarry 
+        The Mines 
+        Railroad 
+        Spa 
+        Quarry Mine 
+    Mutant Bug Lair 
+    Witch's Hut 
