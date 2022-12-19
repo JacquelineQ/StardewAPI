@@ -6,20 +6,14 @@ Crops (possibly need to add fruit from fruit trees)
 Recipes
 Artifacts 
 Fish 
-
-Tables I need to structure:
-
-Resources (Types: Basic, Ore, Bar)
-Monsters 
 Weapons
-Artisan Goods
-Foraged Items 
-Craftable Goods 
-Trees (common, special and fruit types)
 Hats 
 Footwear
 Rings 
 Achievements 
+Craftable Goods 
+Foraged Items 
+
 
 Confused Tables Maybe Whatever:
 Fertilizer (Rations and percentages for different quality crops)
@@ -29,6 +23,13 @@ Tackle (small, should I bother?)
 Furniture (Just a name, price and image. Lots of different types, chair, couches etc)
 Quests (complicated structure)
 Bundles (def want but have to think of structure, necessary number of items vs items that satisy etc...)
+Monsters (so many different subtypes)
+Resources (Types: Basic, Ore, Bar)
+Trees (common, special and fruit types)
+Artisan Goods (big structure variation based on type)
+
+
+
 
 
 **Villagers/Characters* have to decide how I want to arrange/separate these
