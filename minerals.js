@@ -5,7 +5,11 @@ const minerals = [
     name: "",
     type: "",
     description: "",
-    location: []
+    location: [],
+    usedIn: [],
+    sellPrice: ,
+    gemologistSellPrice: ,
+    imgSrc
 },
 ];
 

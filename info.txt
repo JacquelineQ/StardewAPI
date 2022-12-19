@@ -1,39 +1,38 @@
-Planned Tables:
-*Fish: 
-    primary-key
-    name
-    description
-    time
-    season
-    weather
-    size
-    difficulty
-    behavior
-    imgSrc 
+Tables with Structure:
 
+Villagers
+Minerals 
+Crops (possibly need to add fruit from fruit trees)
+Recipes
+Artifacts 
+Fish 
 
-*Recipes:
-    primary-key 
-    name
-    ingredients 
-    restores
-    source 
-    sellPrice
-    imgSrc 
+Tables I need to structure:
 
-Minerals
 Resources (Types: Basic, Ore, Bar)
 Monsters 
-Artifacts
 Weapons
-Trees 
-Crops (May have to add fruit from fruit trees, not sure if its organized that way in the wiki)
 Artisan Goods
-Artisan Equipment
 Foraged Items 
+Craftable Goods 
 Trees (common, special and fruit types)
-**Villagers/Characters* have to decide how I want o arrange/separate these
-**Areas/The Valley* Need to figure out how to organize/if I need more than one
+Hats 
+Footwear
+Rings 
+Achievements 
+
+Confused Tables Maybe Whatever:
+Fertilizer (Rations and percentages for different quality crops)
+Buildings (Types: Merchants, Houses/Residences/, Farming, Special, Other)
+Bait (small, should I bother?)
+Tackle (small, should I bother?)
+Furniture (Just a name, price and image. Lots of different types, chair, couches etc)
+Quests (complicated structure)
+Bundles (def want but have to think of structure, necessary number of items vs items that satisy etc...)
+
+
+**Villagers/Characters* have to decide how I want to arrange/separate these
+**Locations/The Valley* Need to figure out how to organize/if I need more than one
     Pelican Town
         Residences
         Blacksmith 
@@ -77,3 +76,6 @@ Trees (common, special and fruit types)
         Quarry Mine 
     Mutant Bug Lair 
     Witch's Hut 
+    Ginger Island 
+    **Yeah def will have to make these their own tables 
+
