@@ -1,3 +1,12 @@
+Will need to convert achievement value for Hats to reference later 
+
+Need to change single to double quotes in a lot of data files since apostrophes
+    happen sometimes/consistency
+
+What is the currency at Qi's Casino??? Qi coins!
+
+Hats section tells how to obtain through Achievements, not merchant availability, possibly need to add later
+
 Tables with Structure:
 
 Villagers
