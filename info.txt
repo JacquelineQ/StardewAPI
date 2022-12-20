@@ -1,9 +1,11 @@
+3 different hats named "Party Hat" that are different colors, not sure if I should alter names or not 
+
 Will need to convert achievement value for Hats to reference later 
 
 Need to change single to double quotes in a lot of data files since apostrophes
     happen sometimes/consistency
 
-What is the currency at Qi's Casino??? Qi coins!
+What is the currency at Qi's Casino??? Qi coins! Or wait, gems??
 
 Hats section tells how to obtain through Achievements, not merchant availability, possibly need to add later
 

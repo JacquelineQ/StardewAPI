@@ -259,11 +259,396 @@ const hats = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/3/3a/Panda_Hat.png"
 },
 {
-    name: "",
-    description: "",
-    achievement: "",
-    howToObtain: "",
-    imgSrc: ""
+    name: "Blue Cowboy Hat",
+    description: "A denim cowboy hat in cool blue.",
+    achievement: "N/A",
+    howToObtain: "Found randomly in treasure chests in the Skull Cavern.",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/7/73/Blue_Cowboy_Hat.png"
+},
+{
+    name: "Red Cowboy Hat",
+    description: "An eye-catching cowboy hat in red suede.",
+    achievement: "N/A",
+    howToObtain: "Found randomly in treasure chests in the Skull Cavern.",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/f/fc/Red_Cowboy_Hat.png"
+},
+{
+    name: "Cone Hat",
+    description: "A curiosity from a distant land.",
+    achievement: "N/A",
+    howToObtain: "Purchase during the Night Market at the Magic Shop Boat.",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/d/d5/Cone_Hat.png"
+},
+{
+    name: "Living Hat",
+    description: "It absorbs moisture from your scalp. No watering needed!",
+    achievement: "N/A",
+    howToObtain: "0.001% chance to find while cutting weeds, .01% chance of dropping from Wilderness Golems",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/95/Living_Hat.png"
+},
+{
+    name: "Emily's Magic Hat",
+    description: "Made with love by Emily. It's 100% organic!",
+    achievement: "N/A",
+    howToObtain: "Obtained in Emily's 14-heart cutscene",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/a/a4/Emily%27s_Magic_Hat.png"
+},
+{
+    name: "Mushroom Cap",
+    description: "It smells earthy.",
+    achievement: "N/A",
+    howToObtain: "1% chance of obtaining when chopping down a Mushroom Tree",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/7/71/Mushroom_Cap.png"
+},
+{
+    name: "Dinosaur Hat",
+    description: "A hat fashioned to look like a small dinosaur.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/2/25/Dinosaur_Hat.png"
+},
+{
+    name: "Totem Mask",
+    description: "Don't worry, it won't warp your face...",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/c/cc/Totem_Mask.png"
+},
+{
+    name: "Logo Cap",
+    description: "A red cap with a logo on the front.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/c/ca/Logo_Cap.png"
+},
+{
+    name: "Wearable Dwarf Helm",
+    description: "A slightly larger, human sized version of the helmets worn by dwarves.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/3/36/Wearable_Dwarf_Helm.png"
+},
+{
+    name: "Fashion Hat",
+    description: "A fashionable hat with a feather in the brim.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/6/69/Fashion_Hat.png"
+},
+{
+    name: "Pumpkin Mask",
+    description: "This must have been a pretty big pumpkin once...",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/b/ba/Pumpkin_Mask.png"
+},
+{
+    name: "Hair Bone",
+    description: "A prehistoric version of the hair bow.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/c/cb/Hair_Bone.png"
+},
+{
+    name: "Knight's Helmet",
+    description: "It looks just like the real thing!",
+    achievement: "N/A",
+    howToObtain: "Monster Eradication Goal - Defeat 50 Pepper Rex.",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/6/62/Knight%27s_Helmet.png"
+},
+{
+    name: "Squire's Helmet",
+    description: "The face is exposed to increase air flow.",
+    achievement: "N/A",
+    howToObtain: "Monster drop from Metal Heads",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/7/70/Squire%27s_Helmet.png"
+},
+{
+    name: "Spotted Headscarf",
+    description: "A red polka-dot scarf tied around the head.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/a/a7/Spotted_Headscarf.png"
+},
+{
+    name: "Beanie",
+    description: "A warm hat with a pretty tight fit.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/5/51/Beanie.png"
+},
+{
+    name: "Floppy Beanie",
+    description: "A warm hat with a looser fit.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/0/0d/Floppy_Beanie.png"
+},
+{
+    name: "Fishing Hat",
+    description: "The wide brim keeps you shaded when you're fishing on the riverbank.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/d/d8/Fishing_Hat.png"
+},
+{
+    name: "Blobfish Mask",
+    description: "Just as spongy as the real thing!",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/a/a5/Blobfish_Mask.png"
+},
+{
+    name: "Party Hat",
+    description: "A goofy red hat that makes any celebration more fun.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/96/Party_Hat_%28red%29.png"
+},
+{
+    name: "Party Hat",
+    description: "A goofy blue hat that makes any celebration more fun.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/f/fe/Party_Hat_%28blue%29.png"
+},
+{
+    name: "Party Hat",
+    description: "A goofy green hat that makes any celebration more fun.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/c/c5/Party_Hat_%28green%29.png"
+},
+{
+    name: "Arcane Hat",
+    description: "The type of cowboy hat worn by a wizard.",
+    achievement: "N/A",
+    howToObtain: "Monster Eradication Goal - Defeat 100 Mummies.",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/c/c7/Arcane_Hat.png"
+},
+{
+    name: "Chef Hat",
+    description: "The traditional hat worn by a head chef.",
+    achievement: "Gourmet Chef",
+    howToObtain: "Cook every recipe.",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/3/3b/Chef_Hat.png"
+},
+{
+    name: "Pirate Hat",
+    description: "A captain's hat with a horrible skull on the front.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/0/04/Pirate_Hat.png"
+},
+{
+    name: "Flat Topped Hat",
+    description: "An old style of hat once considered very fashionable.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/e/e0/Flat_Topped_Hat.png"
+},
+{
+    name: "Elegant Turban",
+    description: "A fine black silk turban with gold trim.",
+    achievement: "N/A",
+    howToObtain: "Earn all other Achievements.",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/3/3d/Elegant_Turban.png"
+},
+{
+    name: "White Turban",
+    description: "A fine white silk turban with blue trim.",
+    achievement: "N/A",
+    howToObtain: "Tailoring, Found randomly in treasure chests in the Skull Cavern.",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/6/60/White_Turban.png"
+},
+{
+    name: "Garbage Hat",
+    description: "It's a garbage can lid 'upcycled' into a hat...",
+    achievement: "N/A",
+    howToObtain: "0.2% chance to find while checking Garbage Cans in Town, only after checking 20 cans",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/a/a9/Garbage_Hat.png"
+},
+{
+    name: "Golden Mask",
+    description: "A faithful recreation of the Calico Desert relic!",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/c/c7/Golden_Mask_%28hat%29.png"
+},
+{
+    name: "Propeller Hat",
+    description: "A goofy hat with a propeller on top.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/96/Propeller_Hat.png"
+},
+{
+    name: "Bridal Veil",
+    description: "The traditional headwear for a bride.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/0/05/Bridal_Veil.png"
+},
+{
+    name: "Witch Hat",
+    description: "A pointy hat popular with witches.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/1/18/Witch_Hat.png"
+},
+{
+    name: "Copper Pan",
+    description: "You place the copper pan on your head...",
+    achievement: "N/A",
+    howToObtain: "Place the Copper Pan in the hat slot next to the farmer sprite in the inventory menu",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/f/fc/Copper_Pan_%28hat%29.png"
+},
+{
+    name: "Green Turban",
+    description: "A green silk turban with a gold ornament on the front.",
+    achievement: "N/A",
+    howToObtain: "Desert Trader in exchange for 50 Omni Geodes",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/d/d0/Green_Turban.png"
+},
+{
+    name: "Magic Cowboy Hat",
+    description: "It's shimmering with prismatic energy",
+    achievement: "N/A",
+    howToObtain: "Desert Trader in exchange for 333 Omni Geodes, odd days",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/6/60/Magic_Cowboy_Hat.png"
+},
+{
+    name: "Magic Turban",
+    description: "It's shimmering with prismatic energy",
+    achievement: "N/A",
+    howToObtain: "Desert Trader in exchange for 333 Omni Geodes, even days",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/6/65/Magic_Turban.png"
+},
+{
+    name: "Golden Helmet",
+    description: "It's half of a golden coconut.",
+    achievement: "N/A",
+    howToObtain: "Golden Coconut (5% chance on opening)",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/c/c6/Golden_Helmet.png"
+},
+{
+    name: "Deluxe Pirate Hat",
+    description: "Only the most infamous pirate could pull off this look.",
+    achievement: "N/A",
+    howToObtain: "Volcano Dungeon chest",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/c/cb/Deluxe_Pirate_Hat.png"
+},
+{
+    name: "Pink Bow",
+    description: "This huge bow makes quite a statement!",
+    achievement: "N/A",
+    howToObtain: "Sold by Dwarf in Volcano Dungeon",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/4/4e/Pink_Bow.png"
+},
+{
+    name: "Frog Hat",
+    description: "A slimy friend that lives on your dome.",
+    achievement: "N/A",
+    howToObtain: "Caught in the Gourmand Frog's cave on Ginger Island",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/d/d1/Frog_Hat.png"
+},
+{
+    name: "Small Cap",
+    description: "It's a more aerodynamic style of cap.",
+    achievement: "N/A",
+    howToObtain: "Island Trader on Mondays in exchange for 30 Taro Roots.",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/1/1a/Small_Cap.png"
+},
+{
+    name: "Bluebird Mask",
+    description: "Wear this to look just like your favorite island trader.",
+    achievement: "N/A",
+    howToObtain: "Island Trader on Wednesdays in exchange for 30 Taro Roots.",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/2/2b/Bluebird_Mask.png"
+},
+{
+    name: "Deluxe Cowboy Hat",
+    description: "A cowboy hat with a more extreme shape.",
+    achievement: "N/A",
+    howToObtain: "Island Trader on Fridays in exchange for 30 Taro Roots.",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/b/b9/Deluxe_Cowboy_Hat.png"
+},
+{
+    name: "Mr. Qi's Hat",
+    description: "A replica of Mr. Qi's iconic hat.",
+    achievement: "N/A",
+    howToObtain: "Qi's Walnut Room in exchange for 5 Qi Gems",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/e/ed/Mr._Qi%27s_Hat.png"
+},
+{
+    name: "Dark Cowboy Hat",
+    description: "A cowboy hat in fashionable black.",
+    achievement: "N/A",
+    howToObtain: "Found randomly in treasure chests in the Skull Cavern",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/d/d5/Dark_Cowboy_Hat.png"
+},
+{
+    name: "Radioactive Goggles",
+    description: "Doesn't actually provide any protection from radiation.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/4/4d/Radioactive_Goggles.png"
+},
+{
+    name: "Swashbuckler Hat",
+    description: "The classic swashbuckler look.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/c/c4/Swashbuckler_Hat.png"
+},
+{
+    name: "Qi Mask",
+    description: "???",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/d/dd/Qi_Mask.png"
+},
+{
+    name: "Star Helmet",
+    description: "A red hat with stars on it.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/2/2a/Star_Helmet.png"
+},
+{
+    name: "Sunglasses",
+    description: "These give you a relaxed look.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/92/Sunglasses.png"
+},
+{
+    name: "Goggles",
+    description: "These will make you look very safe.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/1/1a/Goggles.png"
+},
+{
+    name: "Forager's Hat",
+    description: "It's a forager's delight.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/3/30/Forager%27s_Hat.png"
+},
+{
+    name: "Warrior Helmet",
+    description: "An Ostrich eggshell repurposed into a helmet.",
+    achievement: "N/A",
+    howToObtain: "Tailoring",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/6/68/Warrior_Helmet.png"
+},
+{
+    name: "???",
+    description: "???",
+    achievement: "N/A",
+    howToObtain: "Interact with the monkey in the Volcano Caldera once you have achieved 100% Perfection.",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/1/1a/ConcernedApe_Hat.png"
 },
 {
     name: "",
@@ -300,19 +685,6 @@ const hats = [
     howToObtain: "",
     imgSrc: ""
 },
-{
-    name: "",
-    description: "",
-    achievement: "",
-    howToObtain: "",
-    imgSrc: ""
-},
-{
-    name: "",
-    description: "",
-    achievement: "",
-    howToObtain: "",
-    imgSrc: ""
-},
+
 
 ];
