@@ -3,13 +3,43 @@ const minerals = [
     //need to decide whether to include drop percentage in location, array or object
 {
     name: "",
-    type: "",
+    type: "foraged",
     description: "",
-    location: [],
-    usedIn: [],
-    sellPrice: ,
-    gemologistSellPrice: ,
-    imgSrc
+    location: "",
+    usedIn: "",
+    sellPrice: "",
+    gemologistSellPrice: "",
+    imgSrc: ""
+},
+{
+    name: "",
+    type: "foraged",
+    description: "",
+    location: "",
+    usedIn: "",
+    sellPrice: "",
+    gemologistSellPrice: "",
+    imgSrc: ""
+},
+{
+    name: "",
+    type: "foraged",
+    description: "",
+    location: "",
+    usedIn: "",
+    sellPrice: "",
+    gemologistSellPrice: "",
+    imgSrc: ""
+},
+{
+    name: "",
+    type: "foraged",
+    description: "",
+    location: "",
+    usedIn: "",
+    sellPrice: "",
+    gemologistSellPrice: "",
+    imgSrc: ""
 },
 ];
 
