@@ -649,42 +649,5 @@ const hats = [
     achievement: "N/A",
     howToObtain: "Interact with the monkey in the Volcano Caldera once you have achieved 100% Perfection.",
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/1/1a/ConcernedApe_Hat.png"
-},
-{
-    name: "",
-    description: "",
-    achievement: "",
-    howToObtain: "",
-    imgSrc: ""
-},
-{
-    name: "",
-    description: "",
-    achievement: "",
-    howToObtain: "",
-    imgSrc: ""
-},
-{
-    name: "",
-    description: "",
-    achievement: "",
-    howToObtain: "",
-    imgSrc: ""
-},
-{
-    name: "",
-    description: "",
-    achievement: "",
-    howToObtain: "",
-    imgSrc: ""
-},
-{
-    name: "",
-    description: "",
-    achievement: "",
-    howToObtain: "",
-    imgSrc: ""
-},
-
-
+}
 ];
