@@ -6,6 +6,7 @@ const achievements = require('./achievements');
 const artifacts = require('./artifacts');
 const footwear = require('./footwear');
 const hats = require('./hats');
+const rings = require('./rings');
 
 const app = express();
 
@@ -77,7 +78,17 @@ const getHatsByName = (req, res) => {
     const name = req.params.name;
 
     res.json(hats.find(hat => hat.name.toLowerCase() === name.toLowerCase()));
-}
+};
+
+const getRings = (req, res) => {
+    res.json(rings);
+};
+
+const getRingsByName = (req, res) => {
+    const name = req.params.name;
+
+    res.json(rings.find(ring => ring.name.toLowerCase() === name.toLowerCase()));
+};
 
 
 app.get('/api/villagers', getVillagers);
@@ -90,6 +101,8 @@ app.get('/api/footwear/:name', getFootwearByName);
 app.get('/api/footwear', getFootwear);
 app.get('/api/hats/:name', getHatsByName);
 app.get('/api/hats', getHats);
+app.get('/api/rings/:name', getRingsByName);
+app.get('/api/rings', getRings);
 
 
 //  res.json(villagers.find(villager => villager.name.toLowerCase() === req.params.name.toLowerCase()));
