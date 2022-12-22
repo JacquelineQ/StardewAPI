@@ -9,7 +9,7 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/a/ad/Sneakers.png"
 },
 {
-    name: "Rubber Boots",
+    name: "Rubber-Boots",
     description: "Protection from the elements.",
     stats: "Immunity (+1)",
     source: "Drop from rare Green Slimes, Fishing Treasure Chests",
@@ -18,7 +18,7 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/e/e8/Rubber_Boots.png"
 },
 {
-    name: "Leather Boots",
+    name: "Leather-Boots",
     description: "The leather is very supple.",
     stats: "Defense (+1), Immunity (+1)",
     source: "Purchased from Adventurer's Guild after reaching Floor 10 in The Mines, Reward from Chest at Floor 10 of The Mines, Fishing Treasure Chests",
@@ -27,7 +27,7 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/f/fd/Leather_Boots.png"
 },
 {
-    name: "Work Boots",
+    name: "Work-Boots",
     description: "Steel-toed for extra protection.",
     stats: "Defense (+2)",
     source: "Fishing Treasure Chests",
@@ -36,7 +36,7 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/5/53/Work_Boots.png"
 },
 {
-    name: "Combat Boots",
+    name: "Combat-Boots",
     description: "Reinforced with iron mesh.",
     stats: "Defense (+3)",
     source: "Purchased from Adventurer's Guild after reaching Floor 40 in The Mines, Fishing Treasure Chests",
@@ -45,7 +45,7 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/6/63/Combat_Boots.png"
 },
 {
-    name: "Tundra Boots",
+    name: "Tundra-Boots",
     description: "The fuzzy lining keeps your ankles so warm.",
     stats: "Defense (+2), Immunity (+1)",
     source: "Reward from Chest at Floor 50 of The Mines, Purchased from Adventurer's Guild after reaching Floor 50 in The Mines",
@@ -54,7 +54,7 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/93/Tundra_Boots.png"
 },
 {
-    name: "Leprechaun Shoes",
+    name: "Leprechaun-Shoes",
     description: "The buckle's made of solid gold.",
     stats: "Defense (+2), Immunity (+1)",
     source: "Trains",
@@ -63,7 +63,7 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/e/e0/Leprechaun_Shoes.png"
 },
 {
-    name: "Thermal Boots",
+    name: "Thermal-Boots",
     description: "Designed with extreme weather in mind.",
     stats: "Defense (+1), Immunity (+2)",
     source: "Random drop from monsters in The Mines, Fishing Treasure Chests",
@@ -72,7 +72,7 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/4/4e/Thermal_Boots.png"
 },
 {
-    name: "Cowboy Boots",
+    name: "Cowboy-Boots",
     description: "It's the height of country fashion.",
     stats: "Defense (+2), Immunity (+2)",
     source: "Unobtainable",
@@ -81,7 +81,7 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/1/15/Cowboy_Boots.png"
 },
 {
-    name: "Dark Boots",
+    name: "Dark-Boots",
     description: "Made from thick black leather.",
     stats: "Defense (+4), Immunity (+2)",
     source: "Purchased from Adventurer's Guild after reaching Floor 80 in The Mines, Fishing Treasure Chests",
@@ -90,7 +90,7 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/8/8d/Dark_Boots.png"
 },
 {
-    name: "Firewalker Boots",
+    name: "Firewalker-Boots",
     description: "It's said these can withstand the hottest magma.",
     stats: "Defense (+3), Immunity (+3)",
     source: "Reward from Chest at Floor 80 of The Mines, Fishing Treasure Chests, Purchased from Adventurer's Guild after reaching Floor 80 in The Mines",
@@ -99,7 +99,7 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/f/fa/Firewalker_Boots.png"
 },
 {
-    name: "Genie Shoes",
+    name: "Genie-Shoes",
     description: "A curious energy permeates the fabric.",
     stats: "Defense (+1), Immunity (+6)",
     source: "Skull Cavern drops, Fishing Treasure Chests",
@@ -108,7 +108,7 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/98/Genie_Shoes.png"
 },
 {
-    name: "Space Boots",
+    name: "Space-Boots",
     description: "An iridium weave gives them a purple sheen.",
     stats: "Defense (+4), Immunity (+4)",
     source: "Purchased from Adventurer's Guild after reaching Floor 110 in The Mines, Reward from Chest at Floor 110 of The Mines",
@@ -117,7 +117,7 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/6/6e/Space_Boots.png"
 },
 {
-    name: "Emily's Magic Boots",
+    name: "Emily's-Magic-Boots",
     description: "Made with love by Emily. 100% compostable!",
     stats: "Defense (+4), Immunity (+4)",
     source: "Given during Emily's 14-heart event",
@@ -126,7 +126,7 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/a/ac/Emily%27s_Magic_Boots.png"
 },
 {
-    name: "Cinderclown Shoes",
+    name: "Cinderclown-Shoes",
     description: "These magic shoes belonged to a famous Dwarvish jester.",
     stats: "Defense (+6), Immunity (+5)",
     source: "Volcano Dungeon Shop",
@@ -135,7 +135,7 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/94/Cinderclown_Shoes.png"
 },
 {
-    name: "Mermaid Boots",
+    name: "Mermaid-Boots",
     description: "Mermaid scales gives these boots a protective aura.",
     stats: "Defense (+5), Immunity (+8)",
     source: "From a treasure chest in the Volcano Dungeon",
@@ -144,7 +144,7 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/98/Mermaid_Boots.png"
 },
 {
-    name: "Dragonscale Boots",
+    name: "Dragonscale-Boots",
     description: "These shimmering boots are extremely tough.",
     stats: "Defense (+7)",
     source: "From a treasure chest in the Volcano Dungeon",
@@ -153,7 +153,7 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/f/fb/Dragonscale_Boots.png"
 },
 {
-    name: "Crystal Shoes",
+    name: "Crystal-Shoes",
     description: "These sparkling shoes will keep your feet very safe.",
     stats: "Defense (+3), Immunity (+5)",
     source: "Skull Cavern drops, Possible reward from Chest at Floor 110 of The Mines (remixed mine rewards only)",
@@ -162,3 +162,5 @@ const footwear = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/6/69/Crystal_Shoes.png"
 }
 ];
+
+module.exports = footwear;
