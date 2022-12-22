@@ -2,7 +2,7 @@ const recipes = [
     //Need to decide how/when I want to include buffs and buff duration
     //Just wont include buffs if its N/A
 {
-    name: "Algae Soup",
+    name: "Algae-Soup",
     description: "It's a little slimy.",
     ingredients: {"Green Algae": 4},
     restores: {Energy: 75, Health: 33},
@@ -11,7 +11,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/5/53/Algae_Soup.png"
 },
 {
-    name: "Artichoke Dip",
+    name: "Artichoke-Dip",
     description: "It's cool and refreshing.",
     ingredients: {"Artichoke": 1, "Milk": 1},
     restores: {Energy: +100, Health: +45},
@@ -20,7 +20,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/7/77/Artichoke_Dip.png"
 },
 {
-    name: "Autumn's Bounty",
+    name: "Autumn's-Bounty",
     description: "A taste of the season.",
     ingredients: {"Yam": 1, "Pumpkin": 1},
     restores: {Energy: +220, Health: +99},
@@ -31,7 +31,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/f/f4/Autumn%27s_Bounty.png"
 },
 {
-    name: "Baked Fish",
+    name: "Baked-Fish",
     description: "Baked fish on a bed of herbs.",
     ingredients: {"Sunfish": 1, "Bream": 1, "Wheat Flour": 1},
     restores: {Energy: +75, Health: +33},
@@ -40,7 +40,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/94/Baked_Fish.png"
 },
 {
-    name: "Banana Pudding",
+    name: "Banana-Pudding",
     description: "A creamy dessert with a wonderful tropical flavor.",
     ingredients: {"Banana": 1, "Milk": 1, "Sugar": 1},
     restores: {Energy: +125, Health: +56},
@@ -51,7 +51,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/4/40/Banana_Pudding.png"
 },
 {
-    name: "Bean Hotpot",
+    name: "Bean-Hotpot",
     description: "It sure is healthy",
     ingredients: {"Green Bean": 2},
     restores: {Energy: +125, Health: +56},
@@ -62,7 +62,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/2/24/Bean_Hotpot.png"
 },
 {
-    name: "Blackberry Cobbler",
+    name: "Blackberry-Cobbler",
     description: "There's nothing quite like it.",
     ingredients: {"Blackberry": 2, "Sugar": 1, "Wheat Flour": 1},
     restores: {Energy: +175, Health: +78},
@@ -71,7 +71,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/7/70/Blackberry_Cobbler.png"
 },
 {
-    name: "Blueberry Tar",
+    name: "Blueberry-Tar",
     description: "It's subtle and refreshing.",
     ingredients: {"Blueberry": 1, "Wheat Flour": 1, "Sugar": 1},
     restores: {Energy: +125, Health: +56},
@@ -98,7 +98,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/c/ca/Bruschetta.png"
 },
 {
-    name: "Carp Surprise",
+    name: "Carp-Surprise",
     description: "It's bland and oily.",
     ingredients: {"Carp": 4},
     restores: {Energy: 90, Health: 40},
@@ -107,7 +107,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/c/cc/Carp_Surprise.png"
 },
 {
-    name: "Cheese Cauliflower",
+    name: "Cheese-Cauliflower",
     description: "It smells great!",
     ingredients: {"Cauliflower": 1, "Cheese": 1},
     restores: {Energy: 138, Health: 62},
@@ -116,7 +116,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/6/6e/Cheese_Cauliflower.png"
 },
 {
-    name: "Chocolate Cake",
+    name: "Chocolate-Cake",
     description: "Rich and moist with a thick fudge icing.",
     ingredients: {"Wheat Flour": 1, "Sugar": 1, "Egg": 1},
     restores: {Energy: 150, Health: 67},
@@ -145,7 +145,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/e/e1/Coleslaw.png"
 },
 {
-    name: "Commplete Breakfast",
+    name: "Commplete-Breakfast",
     description: "You'll feel ready to take on the world!",
     ingredients: {"Fried Egg": 1, "Milk": 1, "Hashbrowns": 1, "Pancakes": 1},
     restores: {Energy: 200, Health: 90},
@@ -165,7 +165,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/7/70/Cookie.png"
 },
 {
-    name: "Crab Cakes",
+    name: "Crab-Cakes",
     description: "Crab, bread crumbs, and egg formed into patties then fried to a golden brown.",
     ingredients: {"Crab": 1, "Wheat Flour": 1, "Egg": 1},
     restores: {Energy: 225, Health: 101},
@@ -176,7 +176,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/7/70/Crab_Cakes.png"
 },
 {
-    name: "Cranberry Candy",
+    name: "Cranberry-Candy",
     description: "It's sweet enough to mask the bitter fruit.",
     ingredients: {"Cranberries": 1, "Apple": 1, "Sugar": 1},
     restores: {Energy: 125, Health: 56},
@@ -185,7 +185,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/9d/Cranberry_Candy.png"
 },
 {
-    name: "Cranberry Sauce",
+    name: "Cranberry-Sauce",
     description: "A festive treat.",
     ingredients: {"Cranberries": 1, "Sugar": 1},
     restores: {Energy: 125, Health: 56},
@@ -196,7 +196,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/0/0b/Cranberry_Sauce.png"
 },
 {
-    name: "Crispy Bass",
+    name: "Crispy-Bass",
     description: "Wow, the breading is perfect.",
     ingredients: {"Largemouth Bass": 1, "Wheat Flour": 1, "Oil": 1},
     restores: {Energy: 90, Health: 40},
@@ -207,7 +207,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/5/53/Crispy_Bass.png"
 },
 {
-    name: "Dish O' The Sea",
+    name: "Dish-O'-The Sea",
     description: "This'll keep you warm in the cold sea air.",
     ingredients: {"Sardine": 2, "Hasbrowns": 1},
     restores: {Energy: 125, Health: 56},
@@ -218,7 +218,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/f/ff/Dish_O%27_The_Sea.png"
 },
 {
-    name: "Eggplant Parmesan",
+    name: "Eggplant-Parmesan",
     description: "Tangy, cheesy, and wonderful.",
     ingredients: {"Eggplant": 1, "Tomato": 1},
     restores: {Energy: 175, Health: 78},
@@ -240,7 +240,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/7/78/Escargot.png"
 },
 {
-    name: "Farmer's Lunch",
+    name: "Farmer's-Lunch",
     description: "This'll keep you going.",
     ingredients: {"Omelet": 1, "Parsnip": 1},
     restores: {Energy: 200, Health: 90},
@@ -251,7 +251,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/7/79/Farmer%27s_Lunch.png"
 },
 {
-    name: "Fiddlehead Risotto",
+    name: "Fiddlehead-Risotto",
     description: "A creamy rice dish served with sauteed fern heads. It's a little bland.",
     ingredients: {"Oil": 1, "Fiddlehead Fern": 1, "Garlic": 1},
     restores: {Energy: 225, Health: 101},
@@ -260,7 +260,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/2/2d/Fiddlehead_Risotto.png"
 },
 {
-    name: "Fish Stew",
+    name: "Fish-Stew",
     description: "It smells a lot like the sea. Tastes better, though.",
     ingredients: {"Crayfish": 1, "Mussel": 1, "Periwinkle": 1, "Tomato": 1},
     restores: {Energy: 225, Health: 101},
@@ -271,7 +271,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/6/6f/Fish_Stew.png"
 },
 {
-    name: "Fish Taco",
+    name: "Fish-Taco",
     description: "It smells delicious.",
     ingredients: {"Tuna": 1, "Tortilla": 1, "Red Cabbage": 1, "Mayonnaise": 1},
     restores: {Energy: 165, Health: 74},
@@ -282,7 +282,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/d/d5/Fish_Taco.png"
 },
 {
-    name: "Fried Calamari",
+    name: "Fried-Calamari",
     description: "It's so chewy.",
     ingredients: {"Squid": 1, "Wheat Flour": 1, "Oil": 1},
     restores: {Energy: 80, Health: 36},
@@ -291,7 +291,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/2/25/Fried_Calamari.png"
 },
 {
-    name: "Fried Eel",
+    name: "Fried-Eel",
     description: "Greasy but flavorful",
     ingredients: {"Eel": 1, "Oil": 1},
     restores: {Energy: 75, Health: 33},
@@ -302,7 +302,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/8/84/Fried_Eel.png"
 },
 {
-    name: "Fried Egg",
+    name: "Fried-Egg",
     description: "Sunny-side up.",
     ingredients: {"Egg": 1},
     restores: {Energy: 50, Health: 22},
@@ -311,7 +311,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/1/18/Fried_Egg.png"
 },
 {
-    name: "Fried Mushroom",
+    name: "Fried-Mushroom",
     description: "Earthy and aromatic",
     ingredients: {"Common Mushroom": 1, "Morel": 1, "Oil": 1},
     restores: {Energy: 135, Health: 60},
@@ -322,7 +322,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/4/4a/Fried_Mushroom.png"
 },
 {
-    name: "Fruit Salad",
+    name: "Fruit-Salad",
     description: "A delicious combination of summer fruits.",
     ingredients: {"Blueberry": 1, "Melon": 1, "Apricot": 1},
     restores: {Energy: 263, Health: 118},
@@ -331,7 +331,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/9e/Fruit_Salad.png"
 },
 {
-    name: "Ginger Ale",
+    name: "Ginger-Ale",
     description: "A zesty soda known for its soothing effect on the stomach.",
     ingredients: {"Ginger": 1, "Sugar": 1},
     restores: {Energy: 63, Health: 28},
@@ -342,7 +342,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/1/1a/Ginger_Ale.png"
 },
 {
-    name: "Glazed Yams",
+    name: "Glazed-Yams",
     description: "Sweet and satisfying... The sugar gives it a hint of caramel.",
     ingredients: {"Yam": 1, "Sugar": 1},
     restores: {Energy: 200, Health: 90},
@@ -362,7 +362,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/8/8f/Hashbrowns.png"
 },
 {
-    name: "Ice Cream",
+    name: "Ice-Cream",
     description: "It's hard to find someone who doesn't like this.",
     ingredients: {"Milk": 1, "Sugar": 1},
     restores: {Energy: 100, Health: 45},
@@ -371,7 +371,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/5/5d/Ice_Cream.png"
 },
 {
-    name: "Lobster Bisque",
+    name: "Lobster-Bisque",
     description: "This delicate soup is a secret family recipe of Willy's.",
     ingredients: {"Lobseter": 1, "Milk": 1},
     restores: {Energy: 225, Health: 101},
@@ -382,7 +382,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/0/0a/Lobster_Bisque.png"
 },
 {
-    name: "Lucky Lunch",
+    name: "Lucky-Lunch",
     description: "A special little treat",
     ingredients: {"Sea Cucumber": 1, "Tortilla": 1, "Blue Jazz": 1},
     restores: {Energy: 100, Health: 45},
@@ -393,7 +393,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/5/5d/Lucky_Lunch.png"
 },
 {
-    name: "Maki Roll",
+    name: "Maki-Roll",
     description: "Fish and rice wrapped in seaweed.",
     ingredients: {"Any Fish": 1, "Seaweed": 1, "Rice":1},
     restores: {Energy: 100, Health: 45},
@@ -402,7 +402,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/b/b6/Maki_Roll.png"
 },
 {
-    name: "Mango Sticky Rice",
+    name: "Mango-Sticky-Rice",
     description: "Sweet mango and coconut transforms this rice into something very special.",
     ingredients: {"Mango": 1, "Coconut": 1, "Rice": 1},
     restores: {Energy: 113, Health: 50},
@@ -413,7 +413,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/6/6e/Mango_Sticky_Rice.png"
 },
 {
-    name: "Maple Bar",
+    name: "Maple-Bar",
     description: "It's a sweet doughnut topped with a rich maple glaze.",
     ingredients: {"Maple Syrup": 1, "Sugar": 1, "Wheat Flour": 1},
     restores: {Energy: 225, Health: 101},
@@ -424,7 +424,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/1/18/Maple_Bar.png"
 },
 {
-    name: "Miner's Treat",
+    name: "Miner's-Treat",
     description: "This should keep your energy up.",
     ingredients: {"Cave Carrot": 2, "Sugar": 1, "Milk": 1},
     restores: {Energy: 125, Health: 56},
@@ -444,7 +444,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/1/12/Omelet.png"
 },
 {
-    name: "Pale Brother",
+    name: "Pale-Broth",
     description: "A delicate broth with a hint of sulfur.",
     ingredients: {"White Algae": 2},
     restores: {Energy: 125, Health: 56},
@@ -464,7 +464,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/6/6b/Pancakes.png"
 },
 {
-    name: "Parsnip Soup",
+    name: "Parsnip-Soup",
     description: "It's fresh and hearty.",
     ingredients: {"Parsnip": 1, "Milk": 1, "Vinegar": 1},
     restores: {Energy: 85, Health: 38},
@@ -473,7 +473,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/7/76/Parsnip_Soup.png"
 },
 {
-    name: "Pepper Poppers",
+    name: "Pepper-Poppers",
     description: "Spicy breaded peppers filled with cheese.",
     ingredients: {"Hot Pepper": 1, "Cheese": 1},
     restores: {Energy: 130, Health: 58},
@@ -484,7 +484,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/0/08/Pepper_Poppers.png"
 },
 {
-    name: "Pink Cake",
+    name: "Pink-Cake",
     description: "There's little heart candies on top.",
     ingredients: {"Melon": 1, "Wheat Flour": 1, "Sugar": 1, "Egg": 1},
     restores: {Energy: 250, Health: 112},
@@ -502,7 +502,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/f/f4/Pizza.png"
 },
 {
-    name: "Plum Pudding",
+    name: "Plum-Pudding",
     description: "A traditional holiday treat.",
     ingredients: {"Wild Plum": 2, "Wheat Flour": 1, "Sugar": 1},
     restores: {Energy: 175, Health: 78},
@@ -520,7 +520,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/f/f1/Poi.png"
 },
 {
-    name: "Poppyseed Muffin",
+    name: "Poppyseed-Muffin",
     description: "It has a soothing effect.",
     ingredients: {"Poppy": 1, "Wheat Flour": 1, "Sugar": 1},
     restores: {Energy: 150, Health: 67},
@@ -529,7 +529,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/8/8e/Poppyseed_Muffin.png"
 },
 {
-    name: "Pumpkin Pie",
+    name: "Pumpkin-Pie",
     description: "Silky pumpkin cream in a flakey crust.",
     ingredients: {"Pumpkin": 1, "Wheat Flour": 1, "Milk": 1, "Sugar": 1},
     restores: {Energy: 225, Health: 101},
@@ -538,7 +538,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/7/7d/Pumpkin_Pie.png"
 },
 {
-    name: "Pumpkin Soup",
+    name: "Pumpkin-Soup",
     description: "A seasonal favorite.",
     ingredients: {"Pumpkin": 1, "Milk": 1},
     restores: {Energy: 200, Health: 90},
@@ -549,7 +549,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/5/59/Pumpkin_Soup.png"
 },
 {
-    name: "Radish Salad",
+    name: "Radish-Salad",
     description: "The radishes are so crisp!",
     ingredients: {"Oil": 1, "Vinegar": 1, "Radish": 1},
     restores: {Energy: 200, Health: 90},
@@ -558,7 +558,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/b/b9/Radish_Salad.png"
 },
 {
-    name: "Red Plate",
+    name: "Red-Plate",
     description: "Full of antioxidants.",
     ingredients: {"Red Cabbage": 1, "Radish": 1},
     restores: {Energy: 240, Health: 108},
@@ -569,7 +569,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/4/45/Red_Plate.png"
 },
 {
-    name: "Rhubarb Pie",
+    name: "Rhubarb-Pie",
     description: "Mmm, tangy and sweet!",
     ingredients: {"Rhubarb": 1, "Wheat Flour": 1, "Sugar": 1},
     restores: {Energy: 215, Health: 96},
@@ -578,7 +578,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/2/21/Rhubarb_Pie.png"
 },
 {
-    name: "Rice Pudding",
+    name: "Rice-Pudding",
     description: "It's creamy, sweet, and fun to eat",
     ingredients: {"Milk": 1, "Sugar": 1, "Rice": 1},
     restores: {Energy: 115, Health: 51},
@@ -587,7 +587,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/e/ec/Rice_Pudding.png"
 },
 {
-    name: "Roasted Hazelnuts",
+    name: "Roasted-Hazelnuts",
     description: "The roasting process creates a rich forest flavor.",
     ingredients: {"Hazelnut": 3},
     restores: {Energy: 175, Health: 78},
@@ -596,7 +596,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/1/18/Roasted_Hazelnuts.png"
 },
 {
-    name: "Roots Platter",
+    name: "Roots-Platter",
     description: "This'll get you digging for more.",
     ingredients: {"Cave Carrot": 1, "Winter Root": 1},
     restores: {Energy: 125, Health: 56},
@@ -616,7 +616,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/7/7e/Salad.png"
 },
 {
-    name: "Salmon Dinner",
+    name: "Salmon-Dinner",
     description: "The lemon spritz makes it special.",
     ingredients: {"Salmon": 1, "Amaranth": 1, "Kale": 1},
     restores: {Energy: 125, Health: 56},
@@ -634,7 +634,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/4/41/Sashimi.png"
 },
 {
-    name: "Seafoam Pudding",
+    name: "Seafoam-Pudding",
     description: "This briny pudding will really get you into the maritime mindset!",
     ingredients: {"Flounder": 1, "Midnight Carp": 1, "Squid Ink": 1},
     restores: {Energy: 175, Health: 78},
@@ -645,7 +645,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/3/33/Seafoam_Pudding.png"
 },
 {
-    name: "Shrimp Cocktail",
+    name: "Shrimp-Cocktail",
     description: "A sumptuous appetizer made with freshly-caught shrimp.",
     ingredients: {"Tomato": 1, "Shrimp": 1, "Wild Horseradish": 1},
     restores: {Energy: 225, Health: 101},
@@ -665,7 +665,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/0/08/Spaghetti.png"
 },
 {
-    name: "Spicy Eel",
+    name: "Spicy-Eel",
     description: "It's really spicy! Be careful.",
     ingredients: {"Eel": 1, "Hot Pepper": 1},
     restores: {Energy: 75, Health: 33},
@@ -676,7 +676,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/f/f2/Spicy_Eel.png"
 },
 {
-    name: "Squid Ink Ravioli",
+    name: "Squid-Ink-Ravioli",
     description: "Temporarily protects from debuffs.",
     ingredients: {"Squid Ink": 1, "Wheat Flour": 1, "Tomato": 1},
     restores: {Energy: 125, Health: 56},
@@ -687,7 +687,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/8/86/Squid_Ink_Ravioli.png"
 },
 {
-    name: "Stir Fry",
+    name: "Stir-Fry",
     description: "Julienned vegetables on a bed of rice.",
     ingredients: {"Cave Carrot": 1, "Common Mushroom": 1, "Kale": 1, "Oil": 1},
     restores: {Energy: 200, Health: 90},
@@ -696,7 +696,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/e/ed/Stir_Fry.png"
 },
 {
-    name: "Strange Bun",
+    name: "Strange-Bun",
     description: "What's inside?",
     ingredients: {"Wheat Flour": 1, "Periwinkle": 1, "Void Mayonnaise": 1},
     restores: {Energy: 100, Health: 45},
@@ -716,7 +716,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/9a/Stuffing.png"
 },
 {
-    name: "Super Meal",
+    name: "Super-Meal",
     description: "It's a really energizing meal.",
     ingredients: {"Bok Choy": 1, "Cranberries": 1, "Artichoke": 1},
     restores: {Energy: 160, Health: 72},
@@ -727,7 +727,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/d/d2/Super_Meal.png"
 },
 {
-    name: "Survival Burger",
+    name: "Survival-Burger",
     description: "A convenient snack for the explorer",
     ingredients: {"Bread": 1, "Cave Carrot": 1, "Eggplant": 1},
     restores: {Energy: 125, Health: 56},
@@ -738,7 +738,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/8/87/Survival_Burger.png"
 },
 {
-    name: "Tom Kha Soup",
+    name: "Tom-Kha-Soup",
     description: "These flavors are incredible!",
     ingredients: {"Coconut": 1, "Shrimp": 1, "Common Mushroom": 1},
     restores: {Energy: 175, Health: 78},
@@ -758,7 +758,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/d/d7/Tortilla.png"
 },
 {
-    name: "Triple Shot Espresso",
+    name: "Triple-Shot-Espresso",
     description: "It's more potent than regular coffee!",
     ingredients: {"Coffee": 3},
     restores: {Energy: 8, Health: 3},
@@ -769,7 +769,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/3/36/Triple_Shot_Espresso.png"
 },
 {
-    name: "Tropical Curry",
+    name: "Tropical-Curry",
     description: "An exotic, fragrant curry served in a pineapple bowl.",
     ingredients: {"Coconut": 1, "Pineapple": 1},
     restores: {Energy: 150, Energy: 67},
@@ -780,7 +780,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/3/32/Tropical_Curry.png"
 },
 {
-    name: "Trout Soup",
+    name: "Trout-Soup",
     description: "Pretty Salty",
     ingredients: {"Rainbow Trout": 1, "Green Algae": 1},
     restores: {Energy: 100, Health: 45},
@@ -791,7 +791,7 @@ const recipes = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/4/48/Trout_Soup.png"
 },
 {
-    name: "Vegetable Medley",
+    name: "Vegetable-Medley",
     description: "This is very nnutritious.",
     ingredients: {"Tomato": 1, "Beet": 1},
     restores: {Energy: 165, Health: 74},
