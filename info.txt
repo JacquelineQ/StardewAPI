@@ -27,6 +27,7 @@ Foraged Items
 
 Tables I need to give structure: 
 buffs 
+Resources 
 
 
 Confused Tables Maybe Whatever:

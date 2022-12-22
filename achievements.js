@@ -284,3 +284,5 @@ const achievements = [
     gameIcon: "N/A"
 }
 ];
+
+module.exports = achievements;
