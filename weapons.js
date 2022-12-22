@@ -1,5 +1,6 @@
 const weapons = [
 //types: sword, dagger, club, slingshot (slingshot ammo?), unobtainable
+//Need to change level from number type to string 
 {
     name: "Rusty Sword",
     type: "Sword",
@@ -506,8 +507,163 @@ const weapons = [
     purchasePrice: "N/A",
     sellPrice: "800g",
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/d/d6/Infinity_Dagger.png"
+},
+{
+    name: "Femur",
+    type: "Club",
+    level: 2,
+    description: "An old, heavy bone caked in centuries of grime.",
+    damage: "6-11",
+    criticalStikeChance: ".02",
+    stats: "Speed (+2)",
+    found: "The Mines floor 10 chest reward (remixed mine rewards only)",
+    purchasePrice: "N/A",
+    sellPrice: "100g",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/e/e4/Femur.png"
+},
+{
+    name: "Wood Club",
+    type: "Club",
+    level: 2,
+    description: "A solid piece of wood, crudely chiseled into a club shape.",
+    damage: "9-16",
+    criticalStikeChance: ".02",
+    stats: "N/A",
+    found: "The Mines floor 20 chest reward (remixed mine rewards only), The Mines (Floors 1-39)",
+    purchasePrice: "N/A",
+    sellPrice: "100g",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/5/51/Wood_Club.png"
+},
+{
+    name: "Wood Mallet",
+    type: "Club",
+    level: 3,
+    description: "The solid head packs a punch. Relatively light for a club.",
+    damage: "15-24",
+    criticalStikeChance: ".02",
+    stats: "Speed (+2), Weight (+2)",
+    found: "The Mines floor 60 chest reward (remixed mine rewards only), The Mines (Floors 41-79), Adventurer's Guild (after unlocking the Mines floor 40)",
+    purchasePrice: "2,000g",
+    sellPrice: "150g",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/a/ac/Wood_Mallet.png"
+},
+{
+    name: "Lead Rod",
+    type: "Club",
+    level: 4,
+    description: "It's incredibly heavy.",
+    damage: "18-27",
+    criticalStikeChance: ".02",
+    stats: "Speed (-4)",
+    found: "The Mines (Floors 41-79)",
+    purchasePrice: "N/A",
+    sellPrice: "200g",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/3/36/Lead_Rod.png"
+},
+{
+    name: "Kudgel",
+    type: "Club",
+    level: 5,
+    description: "A brute's companion.",
+    damage: "27-40",
+    criticalStikeChance: ".02",
+    stats: "Speed (-1), Crit. Power (+4), Weight (+2)",
+    found: "The Mines floor 80 chest reward (remixed mine rewards only), The Mines (Floors 101+)",
+    purchasePrice: "N/A",
+    sellPrice: "250g",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/e/e0/Kudgel.png"
+},
+{
+    name: "The Slammer",
+    type: "Club",
+    level: 7,
+    description: "An extremely heavy gavel that'll send foes flying.",
+    damage: "40-55",
+    criticalStikeChance: ".02",
+    stats: "Speed (-2)",
+    found: "The Mines floor 110 chest reward (remixed mine rewards only), The Mines (Floors 81-99), Skull Cavern",
+    purchasePrice: "N/A",
+    sellPrice: "350g",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/c/c7/The_Slammer.png"
+},
+{
+    name: "Galaxy Hammer",
+    type: "Club",
+    level: 12,
+    description: "It's made from an ultra-light material you've never seen before.",
+    damage: "70-90",
+    criticalStikeChance: ".02",
+    stats: "Speed (+2), Weight (+5)",
+    found: "Adventurer's Guild (after obtaining the Galaxy Sword)",
+    purchasePrice: "75,000g",
+    sellPrice: "600g",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/8/8a/Galaxy_Hammer.png"
+},
+{
+    name: "Dwarf Hammer",
+    type: "Club",
+    level: 13,
+    description: "It emits a very faint whirring sound.",
+    damage: "75-85",
+    criticalStikeChance: ".02",
+    stats: "Defense (+2), Weight (+5)",
+    found: "Volcano Dungeon Chest",
+    purchasePrice: "N/A",
+    sellPrice: "650g",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/d/d5/Dwarf_Hammer.png"
+},
+{
+    name: "Dragontooth Club",
+    type: "Club",
+    level: 14,
+    description: "This club was crafted from a magical tooth.",
+    damage: "80-100",
+    criticalStikeChance: ".02",
+    stats: "Crit. Power (+50), Weight (+3)",
+    found: "Volcano Dungeon Chest",
+    purchasePrice: "N/A",
+    sellPrice: "700g",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/1/18/Dragontooth_Club.png"
+},
+{
+    name: "Infinity Gavel",
+    type: "Club",
+    level: 17,
+    description: "The true form of the Galaxy Hammer.",
+    damage: "100-120",
+    criticalStikeChance: ".02",
+    stats: "Speed (+2), Defense (+1), Weight (+5)",
+    found: "Combine the Galaxy Hammer with Galaxy Soul (3) in the Forge",
+    purchasePrice: "N/A",
+    sellPrice: "850g",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/8/87/Infinity_Gavel.png"
+},
+{
+    name: "Slingshot",
+    type: "Slingshot",
+    level: "N/A",
+    description: "Requires stones for ammo.",
+    damage: "Depends on ammo used",
+    criticalStikeChance: ".02",
+    stats: "N/A",
+    found: "500g",
+    purchasePrice: "500g",
+    sellPrice: "N/A",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/3/3f/Slingshot.png"
+},
+{
+    name: "Master Slingshot",
+    type: "Slingshot",
+    level: "N/A",
+    description: "Requires stones for ammo.",
+    damage: "Depends on ammo used",
+    criticalStikeChance: ".02",
+    stats: "N/A",
+    found: "The Mines (Floor 70 chest reward)",
+    purchasePrice: "1,000g",
+    sellPrice: "N/A",
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/6/63/Master_Slingshot.png"
 }
-
 ];
 
 module.exports = weapons;
