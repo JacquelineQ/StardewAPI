@@ -7,6 +7,7 @@ const artifacts = require('./artifacts');
 const footwear = require('./footwear');
 const hats = require('./hats');
 const rings = require('./rings');
+const recipes = require('./recipes');
 
 const app = express();
 
@@ -90,6 +91,16 @@ const getRingsByName = (req, res) => {
     res.json(rings.find(ring => ring.name.toLowerCase() === name.toLowerCase()));
 };
 
+const getRecipes = (req, res) => {
+    res.json(recipes);
+};
+
+const getRecipesByName = (req, res) => {
+    const name = req.params.name;
+    
+    res.json(recipes.find(recipe => recipe.name.toLowerCase() === name.toLowerCase()));
+};
+
 
 app.get('/api/villagers', getVillagers);
 app.get('/api/minerals', getMinerals);
@@ -103,6 +114,8 @@ app.get('/api/hats/:name', getHatsByName);
 app.get('/api/hats', getHats);
 app.get('/api/rings/:name', getRingsByName);
 app.get('/api/rings', getRings);
+app.get('/api/recipes/:name', getRecipesByName);
+app.get('/api/recipes', getRecipes);
 
 
 //  res.json(villagers.find(villager => villager.name.toLowerCase() === req.params.name.toLowerCase()));
