@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 // const { runInNewContext } = require('vm');
-const villagers = require('./villagers');
+const villagers = require('./villagers/villagers');
 const areas = require('./areas');
 const fish = require('./fish');
 const artifacts = require('./artifacts');

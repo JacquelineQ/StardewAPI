@@ -25,6 +25,9 @@ Achievements
 Craftable Goods 
 Foraged Items 
 
+Tables I need to give structure: 
+buffs 
+
 
 Confused Tables Maybe Whatever:
 Fertilizer (Rations and percentages for different quality crops)
