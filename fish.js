@@ -1,10 +1,12 @@
 const fish = [
+    //If I give people the option to filter by weather and season, have to account for 'Any' values
+    //Location will have to be an array to account for different types and areas
 {
     name: "Albacore",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "Prefers temperature 'edges' where cool and warm water meet.",
-    location: "Ocean",
-    time: ["6am-11am", "6pm-2am"],
+    location: ["Ocean"],
+    time: "6am-11am & 6pm-2am",
     season: ["Fall", "Winter"],
     weather: "Any",
     size: "20in-41in",
@@ -14,22 +16,22 @@ const fish = [
 },
 {
     name: "Anchovy",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "A small silver fish found in the ocean.",
-    location: "Ocean",
+    location: ["Ocean"],
     time: "Any",
     season: ["Spring", "Fall"],
     weather: "Any",
     size: "1in-17in",
     difficulty: "30",
-    behavior: "dart",
+    behavior: "Dart",
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/7/79/Anchovy.png"
 },
 {
     name: "Blue-Discus",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "A brightly colored tropical fish that is popular in aquariums.",
-    location: "",
+    location: [""],
     time: "",
     season: "",
     weather: "",
@@ -40,7 +42,7 @@ const fish = [
 },
 {
     name: "Bream",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -53,7 +55,7 @@ const fish = [
 },
 {
     name: "Bullhead",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -66,7 +68,7 @@ const fish = [
 },
 {
     name: "Carp",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -79,7 +81,7 @@ const fish = [
 },
 {
     name: "Catfish",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -92,7 +94,7 @@ const fish = [
 },
 {
     name: "Chub",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -105,7 +107,7 @@ const fish = [
 },
 {
     name: "Dorado",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -118,7 +120,7 @@ const fish = [
 },
 {
     name: "Eel",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -131,7 +133,7 @@ const fish = [
 },
 {
     name: "Flounder",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -144,7 +146,7 @@ const fish = [
 },
 {
     name: "Ghostfish",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -157,7 +159,7 @@ const fish = [
 },
 {
     name: "Halibut",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -170,7 +172,7 @@ const fish = [
 },
 {
     name: "Herring",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -183,7 +185,7 @@ const fish = [
 },
 {
     name: "Ice-Pip",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -196,7 +198,7 @@ const fish = [
 },
 {
     name: "Largemouth-Bass",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -209,7 +211,7 @@ const fish = [
 },
 {
     name: "Lava-Eel",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -222,7 +224,7 @@ const fish = [
 },
 {
     name: "Lingcod",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -235,7 +237,7 @@ const fish = [
 },
 {
     name: "Lionfish",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -248,7 +250,7 @@ const fish = [
 },
 {
     name: "Midnight-Carp",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -261,7 +263,7 @@ const fish = [
 },
 {
     name: "Octopus",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -274,7 +276,7 @@ const fish = [
 },
 {
     name: "Perch",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -287,7 +289,7 @@ const fish = [
 },
 {
     name: "Pike",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -300,7 +302,7 @@ const fish = [
 },
 {
     name: "Pufferfish",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -313,7 +315,7 @@ const fish = [
 },
 {
     name: "Rainbow-Trout",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -326,7 +328,7 @@ const fish = [
 },
 {
     name: "Red-Snapper",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -339,7 +341,7 @@ const fish = [
 },
 {
     name: "Salmon",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -352,7 +354,7 @@ const fish = [
 },
 {
     name: "Sandfish",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -365,7 +367,7 @@ const fish = [
 },
 {
     name: "Sardine",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -378,7 +380,7 @@ const fish = [
 },
 {
     name: "Scorpion-Carp",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -391,7 +393,7 @@ const fish = [
 },
 {
     name: "Sea-Cucumber",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -404,7 +406,7 @@ const fish = [
 },
 {
     name: "Shad",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -417,7 +419,7 @@ const fish = [
 },
 {
     name: "Slimejack",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -430,7 +432,7 @@ const fish = [
 },
 {
     name: "Smallmouth-Bass",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -443,7 +445,7 @@ const fish = [
 },
 {
     name: "Squid",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -456,7 +458,7 @@ const fish = [
 },
 {
     name: "Stingray",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -469,7 +471,7 @@ const fish = [
 },
 {
     name: "Stonefish",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -482,7 +484,7 @@ const fish = [
 },
 {
     name: "Sturgeon",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -495,7 +497,7 @@ const fish = [
 },
 {
     name: "Sunfish",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -508,7 +510,7 @@ const fish = [
 },
 {
     name: "Super-Cucumber",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -521,7 +523,7 @@ const fish = [
 },
 {
     name: "Tiger-Trout",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -534,7 +536,7 @@ const fish = [
 },
 {
     name: "Tilapia",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -547,7 +549,7 @@ const fish = [
 },
 {
     name: "Tuna",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -560,7 +562,7 @@ const fish = [
 },
 {
     name: "Void-Salmon",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -573,7 +575,7 @@ const fish = [
 },
 {
     name: "Walleye",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
@@ -586,7 +588,7 @@ const fish = [
 },
 {
     name: "Woodskip",
-    type: "fishing-pole",
+    type: "Fishing-Pole",
     description: "",
     location: "",
     time: "",
