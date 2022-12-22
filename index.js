@@ -1,23 +1,12 @@
 const express = require('express');
 const path = require('path');
-// const { runInNewContext } = require('vm');
 const villagers = require('./villagers');
-const areas = require('./areas');
-const fish = require('./fish');
-const artifacts = require('./artifacts');
 const minerals = require('./minerals');
-const weapons = require('./weapons');
-const recipes = require('./recipes');
-const crops = require('./crops');
+const achievements = require('./achievements');
+
 
 const app = express();
 
-// const saySomething = (req, res) => {
-//     const greeting = req.params.greeting;
-//     const content = `${greeting}!`;
-//     res.send(content);  
-// };
-// app.get("/say/:greeting", saySomething);
 
 const getVillagers = (req, res) => {
     const name = req.query.name; 
@@ -48,10 +37,22 @@ const getMinerals = (req, res) => {
     }
 }
 
+const getAchievements = (req, res) => {
+    res.json(achievements);
+}
+
+const getAchievementByName = (req, res) => {
+    const name = req.params.name;
+    
+    res.json(achievements.find(achievement => achievement.name.toLowerCase() === name.toLowerCase()));
+}
+
 
 
 app.get('/api/villagers', getVillagers);
 app.get('/api/minerals', getMinerals);
+app.get('/api/achievements/:name', getAchievementByName);
+app.get('/api/achievements', getAchievements);
 
 
 //  res.json(villagers.find(villager => villager.name.toLowerCase() === req.params.name.toLowerCase()));
