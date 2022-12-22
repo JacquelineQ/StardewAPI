@@ -33,17 +33,25 @@ const getVillagers = (req, res) => {
     }
 }
 
-const getFish = (req, res) => {
-    
+const getMinerals = (req, res) => {
+    const name = req.query.name;
+    const type = req.query.type;
+
+    if(name) {
+        res.json(minerals.find(mineral => mineral.name.toLowerCase() === name.toLowerCase()));
+    }
+    else if(type) {
+        res.json(minerals.filter(mineral => mineral.type.toLowerCase() === type.toLowerCase()));
+    }
+    else {
+        res.json(minerals);
+    }
 }
 
-// const getVillagerByName = (req, res) => {
-//     const name = req.query.name;
-//     res.json(villagers.find(villager => villager.name.toLowerCase() === name.toLowerCase()));
-// }
 
-// app.get('/api/villagers', getVillagerByName);
+
 app.get('/api/villagers', getVillagers);
+app.get('/api/minerals', getMinerals);
 
 
 //  res.json(villagers.find(villager => villager.name.toLowerCase() === req.params.name.toLowerCase()));
