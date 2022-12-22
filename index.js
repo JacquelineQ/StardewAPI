@@ -3,6 +3,7 @@ const path = require('path');
 const villagers = require('./villagers');
 const minerals = require('./minerals');
 const achievements = require('./achievements');
+const artifacts = require('./artifacts');
 
 
 const app = express();
@@ -20,7 +21,7 @@ const getVillagers = (req, res) => {
     else {
     res.json(villagers);  
     }
-}
+};
 
 const getMinerals = (req, res) => {
     const name = req.query.name;
@@ -35,17 +36,27 @@ const getMinerals = (req, res) => {
     else {
         res.json(minerals);
     }
-}
+};
 
 const getAchievements = (req, res) => {
     res.json(achievements);
-}
+};
 
 const getAchievementByName = (req, res) => {
     const name = req.params.name;
     
     res.json(achievements.find(achievement => achievement.name.toLowerCase() === name.toLowerCase()));
-}
+};
+
+const getArtifacts = (req, res) => {
+    res.json(artifacts);
+};
+
+const getArtifactsByName = (req, res) => {
+    const name = req.params.name;
+
+    res.json(artifacts.find(artifact => artifact.name.toLowerCase() === name.toLowerCase()));
+};
 
 
 
@@ -53,6 +64,8 @@ app.get('/api/villagers', getVillagers);
 app.get('/api/minerals', getMinerals);
 app.get('/api/achievements/:name', getAchievementByName);
 app.get('/api/achievements', getAchievements);
+app.get('/api/artifacts/:name', getArtifactsByName);
+app.get('/api/artifacts', getArtifacts);
 
 
 //  res.json(villagers.find(villager => villager.name.toLowerCase() === req.params.name.toLowerCase()));
