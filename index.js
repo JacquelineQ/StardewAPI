@@ -8,6 +8,7 @@ const footwear = require('./footwear');
 const hats = require('./hats');
 const rings = require('./rings');
 const recipes = require('./recipes');
+const weapons = require('./weapons');
 
 const app = express();
 
@@ -97,8 +98,23 @@ const getRecipes = (req, res) => {
 
 const getRecipesByName = (req, res) => {
     const name = req.params.name;
-    
+
     res.json(recipes.find(recipe => recipe.name.toLowerCase() === name.toLowerCase()));
+};
+
+const getWeapons = (req, res) => {
+    const name = req.query.name;
+    const type = req.query.type;
+
+    if(name) {
+        res.json(weapons.find(weapon => weapon.name.toLowerCase() === name.toLowerCase()));
+    }
+    else if(type) {
+        res.json(weapons.filter(weapon => weapon.type.toLowerCase() === type.toLowerCase()));
+    }
+    else {
+        res.json(weapons);
+    }
 };
 
 
@@ -116,6 +132,7 @@ app.get('/api/rings/:name', getRingsByName);
 app.get('/api/rings', getRings);
 app.get('/api/recipes/:name', getRecipesByName);
 app.get('/api/recipes', getRecipes);
+app.get('/api/weapons', getWeapons);
 
 
 //  res.json(villagers.find(villager => villager.name.toLowerCase() === req.params.name.toLowerCase()));

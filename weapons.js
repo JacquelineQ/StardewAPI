@@ -2,7 +2,7 @@ const weapons = [
 //types: sword, dagger, club, slingshot (slingshot ammo?), unobtainable
 //Need to change level from number type to string 
 {
-    name: "Rusty Sword",
+    name: "Rusty-Sword",
     type: "Sword",
     level: 1,
     description: "A rusty, dull old sword.",
@@ -15,7 +15,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/d/d7/Rusty_Sword.png"
 },
 {
-    name: "Steel Smallsword",
+    name: "Steel-Smallsword",
     type: "Sword",
     level: 1,
     description: "A standard metal blade.",
@@ -28,7 +28,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/d/da/Steel_Smallsword.png"
 },
 {
-    name: "Wooden Blade",
+    name: "Wooden-Blade",
     type: "Sword",
     level: 1,
     description: "Not bad for a piece of carved wood.",
@@ -41,7 +41,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/0/06/Wooden_Blade.png"
 },
 {
-    name: "Pirate's Sword",
+    name: "Pirate's-Sword",
     type: "Sword",
     level: 2,
     description: "It looks like a pirate owned this once.",
@@ -54,7 +54,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/1/19/Pirate%27s_Sword.png"
 },
 {
-    name: "Silver Saber",
+    name: "Silver-Saber",
     type: "Sword",
     level: 2,
     description: "Plated with silver to deter rust.",
@@ -80,7 +80,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/1/1e/Cutlass.png"
 },
 {
-    name: "Forest Sword",
+    name: "Forest-Sword",
     type: "Sword",
     level: 3,
     description: "Made powerful by forest magic.",
@@ -93,7 +93,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/1/17/Forest_Sword.png"
 },
 {
-    name: "Iron Edge",
+    name: "Iron-Edge",
     type: "Sword",
     level: 3,
     description: "A heavy broadsword.",
@@ -106,7 +106,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/3/3c/Iron_Edge.png"
 },
 {
-    name: "Insect Head",
+    name: "Insect-Head",
     type: "Sword",
     level: 4,
     description: "Not very pleasant to wield.",
@@ -119,7 +119,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/3/35/Insect_Head.png"
 },
 {
-    name: "Bone Sword",
+    name: "Bone-Sword",
     type: "Sword",
     level: 5,
     description: "A very light piece of sharpened bone.",
@@ -145,7 +145,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/0/0c/Claymore.png"
 },
 {
-    name: "Neptune's Glaive",
+    name: "Neptune's-Glaive",
     type: "Sword",
     level: 5,
     description: "An heirloom from beyond the Gem Sea.",
@@ -158,7 +158,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/2/26/Neptune%27s_Glaive.png"
 },
 {
-    name: "Templar's Blade",
+    name: "Templar's-Blade",
     type: "Sword",
     level: 5,
     description: "It once belonged to an honorable knight.",
@@ -171,7 +171,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/e/e4/Templar%27s_Blade.png"
 },
 {
-    name: "Obsidian Edge",
+    name: "Obsidian-Edge",
     type: "Sword",
     level: 6,
     description: "It's incredibly sharp.",
@@ -184,7 +184,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/7/73/Obsidian_Edge.png"
 },
 {
-    name: "Ossified Blade",
+    name: "Ossified-Blade",
     type: "Sword",
     level: 6,
     description: "A large, sharp blade formed from bone.",
@@ -197,7 +197,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/3/30/Ossified_Blade.png"
 },
 {
-    name: "Tempered Broadsword",
+    name: "Tempered-Broadsword",
     type: "Sword",
     level: 7,
     description: "It looks like it could withstand anything.",
@@ -210,7 +210,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/5/51/Tempered_Broadsword.png"
 },
 {
-    name: "Yeti Tooth",
+    name: "Yeti-Tooth",
     type: "Sword",
     level: 7,
     description: "It's icy cold to the touch.",
@@ -223,7 +223,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/4/4d/Yeti_Tooth.png"
 },
 {
-    name: "Steel Falchion",
+    name: "Steel-Falchion",
     type: "Sword",
     level: 8,
     description: "Light and powerful.",
@@ -236,7 +236,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/e/ee/Steel_Falchion.png"
 },
 {
-    name: "Dark Sword",
+    name: "Dark-Sword",
     type: "Sword",
     level: 9,
     description: "It's glowing with vampire energy.",
@@ -249,7 +249,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/2/2e/Dark_Sword.png"
 },
 {
-    name: "Lava Katana",
+    name: "Lava-Katana",
     type: "Sword",
     level: 10,
     description: "A powerful blade forged in a pool of churning lava.",
@@ -262,7 +262,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/a/a0/Lava_Katana.png"
 },
 {
-    name: "Dragontooth Cutlass",
+    name: "Dragontooth-Cutlass",
     type: "Sword",
     level: 13,
     description: "The blade was forged from a magical tooth.",
@@ -275,7 +275,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/e/e8/Dragontooth_Cutlass.png"
 },
 {
-    name: "Dwarf Sword",
+    name: "Dwarf-Sword",
     type: "Sword",
     level: 13,
     description: "It's ancient, but the blade never dulls.",
@@ -288,7 +288,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/3/38/Dwarf_Sword.png"
 },
 {
-    name: "Galaxy Sword",
+    name: "Galaxy-Sword",
     type: "Sword",
     level: 13,
     description: "It's unlike anything you've ever seen.",
@@ -301,7 +301,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/4/44/Galaxy_Sword.png"
 },
 {
-    name: "Infinity Blade",
+    name: "Infinity-Blade",
     type: "Sword",
     level: 17,
     description: "The true form of the Galaxy Sword.",
@@ -314,7 +314,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/4/40/Infinity_Blade.png"
 },
 {
-    name: "Carving Knife",
+    name: "Carving-Knife",
     type: "Dagger",
     level: 1,
     description: "A small, light blade.",
@@ -327,7 +327,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/6/6d/Carving_Knife.png"
 },
 {
-    name: "Iron Dirk",
+    name: "Iron-Dirk",
     type: "Dagger",
     level: 1,
     description: "A common dagger.",
@@ -340,7 +340,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/b/bb/Iron_Dirk.png"
 },
 {
-    name: "Wind Spire",
+    name: "Wind-Spire",
     type: "Dagger",
     level: 1,
     description: "A swift little blade.",
@@ -353,7 +353,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/0/00/Wind_Spire.png"
 },
 {
-    name: "Elf Blade",
+    name: "Elf-Blade",
     type: "Dagger",
     level: 2,
     description: "Only the nimble hands of an elf could craft this.",
@@ -366,7 +366,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/f/f2/Elf_Blade.png"
 },
 {
-    name: "Burglar's Shank",
+    name: "Burglar's-Shank",
     type: "Dagger",
     level: 4,
     description: "A weapon of choice for the swift and silent.",
@@ -379,7 +379,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/7/7c/Burglar%27s_Shank.png"
 },
 {
-    name: "Crystal Dagger",
+    name: "Crystal-Dagger",
     type: "Dagger",
     level: 4,
     description: "The blade is made of purified quartz.",
@@ -392,7 +392,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/8/8a/Crystal_Dagger.png"
 },
 {
-    name: "Shadow Dagger",
+    name: "Shadow-Dagger",
     type: "Dagger",
     level: 4,
     description: "When you hold the blade to your ear you can hear 1,000 souls shrieking.",
@@ -405,7 +405,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/4/47/Shadow_Dagger.png"
 },
 {
-    name: "Broken Trident",
+    name: "Broken-Trident",
     type: "Dagger",
     level: 5,
     description: "It came from the sea, but it's still sharp.",
@@ -418,7 +418,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/3/3f/Broken_Trident.png"
 },
 {
-    name: "Wicked Kris",
+    name: "Wicked-Kris",
     type: "Dagger",
     level: 8,
     description: "The blade is made of an iridium alloy.",
@@ -431,7 +431,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/94/Wicked_Kris.png"
 },
 {
-    name: "Galaxy Dagger",
+    name: "Galaxy-Dagger",
     type: "Dagger",
     level: 8,
     description: "It's unlike anything you've seen.",
@@ -444,7 +444,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/6/68/Galaxy_Dagger.png"
 },
 {
-    name: "Dwarf Dagger",
+    name: "Dwarf-Dagger",
     type: "Dagger",
     level: 11,
     description: "It's ancient, but the blade never dulls.",
@@ -457,7 +457,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/99/Dwarf_Dagger.png"
 },
 {
-    name: "Dwarf Dagger",
+    name: "Dwarf-Dagger",
     type: "Dagger",
     level: 11,
     description: "It's ancient, but the blade never dulls.",
@@ -470,7 +470,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/99/Dwarf_Dagger.png"
 },
 {
-    name: "Dragontooth Shiv",
+    name: "Dragontooth-Shiv",
     type: "Dagger",
     level: 12,
     description: "The blade was forged from a magical tooth.",
@@ -483,7 +483,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/95/Dragontooth_Shiv.png"
 },
 {
-    name: "Iridium Needle",
+    name: "Iridium-Needle",
     type: "Dagger",
     level: 12,
     description: "The point is unbelievably sharp, even down to the atomic level",
@@ -496,7 +496,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/6/62/Iridium_Needle.png"
 },
 {
-    name: "Infinity Dagger",
+    name: "Infinity-Dagger",
     type: "Dagger",
     level: 16,
     description: "The true form of the Galaxy Dagger.",
@@ -522,7 +522,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/e/e4/Femur.png"
 },
 {
-    name: "Wood Club",
+    name: "Wood-Club",
     type: "Club",
     level: 2,
     description: "A solid piece of wood, crudely chiseled into a club shape.",
@@ -535,7 +535,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/5/51/Wood_Club.png"
 },
 {
-    name: "Wood Mallet",
+    name: "Wood-Mallet",
     type: "Club",
     level: 3,
     description: "The solid head packs a punch. Relatively light for a club.",
@@ -548,7 +548,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/a/ac/Wood_Mallet.png"
 },
 {
-    name: "Lead Rod",
+    name: "Lead-Rod",
     type: "Club",
     level: 4,
     description: "It's incredibly heavy.",
@@ -574,7 +574,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/e/e0/Kudgel.png"
 },
 {
-    name: "The Slammer",
+    name: "The-Slammer",
     type: "Club",
     level: 7,
     description: "An extremely heavy gavel that'll send foes flying.",
@@ -587,7 +587,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/c/c7/The_Slammer.png"
 },
 {
-    name: "Galaxy Hammer",
+    name: "Galaxy-Hammer",
     type: "Club",
     level: 12,
     description: "It's made from an ultra-light material you've never seen before.",
@@ -600,7 +600,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/8/8a/Galaxy_Hammer.png"
 },
 {
-    name: "Dwarf Hammer",
+    name: "Dwarf-Hammer",
     type: "Club",
     level: 13,
     description: "It emits a very faint whirring sound.",
@@ -613,7 +613,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/d/d5/Dwarf_Hammer.png"
 },
 {
-    name: "Dragontooth Club",
+    name: "Dragontooth-Club",
     type: "Club",
     level: 14,
     description: "This club was crafted from a magical tooth.",
@@ -626,7 +626,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/1/18/Dragontooth_Club.png"
 },
 {
-    name: "Infinity Gavel",
+    name: "Infinity-Gavel",
     type: "Club",
     level: 17,
     description: "The true form of the Galaxy Hammer.",
@@ -652,7 +652,7 @@ const weapons = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/3/3f/Slingshot.png"
 },
 {
-    name: "Master Slingshot",
+    name: "Master-Slingshot",
     type: "Slingshot",
     level: "N/A",
     description: "Requires stones for ammo.",
