@@ -75,98 +75,98 @@ const getMinerals = (req, res) => {
     }
 };
 
-const getAchievements = (req, res) => {
-    res.json(achievements);
-};
+// const getAchievements = (req, res) => {
+//     res.json(achievements);
+// };
 
-const getAchievementByName = (req, res) => {
-    const name = req.params.name;
+// const getAchievementByName = (req, res) => {
+//     const name = req.params.name;
     
-    res.json(achievements.find(achievement => achievement.name.toLowerCase() === name.toLowerCase()));
-};
+//     res.json(achievements.find(achievement => achievement.name.toLowerCase() === name.toLowerCase()));
+// };
 
-const getArtifacts = (req, res) => {
-    res.json(artifacts);
-};
+// const getArtifacts = (req, res) => {
+//     res.json(artifacts);
+// };
 
-const getArtifactsByName = (req, res) => {
-    const name = req.params.name;
+// const getArtifactsByName = (req, res) => {
+//     const name = req.params.name;
 
-    res.json(artifacts.find(artifact => artifact.name.toLowerCase() === name.toLowerCase()));
-};
+//     res.json(artifacts.find(artifact => artifact.name.toLowerCase() === name.toLowerCase()));
+// };
 
-const getFootwear = (req, res) => {
-    res.json(footwear);
-};
+// const getFootwear = (req, res) => {
+//     res.json(footwear);
+// };
 
-const getFootwearByName = (req, res) => {
-    const name = req.params.name;
+// const getFootwearByName = (req, res) => {
+//     const name = req.params.name;
 
-    res.json(footwear.find(item => item.name.toLowerCase() === name.toLowerCase()));
-};
+//     res.json(footwear.find(item => item.name.toLowerCase() === name.toLowerCase()));
+// };
 
-const getHats = (req, res) => {
-    res.json(hats);
-};
+// const getHats = (req, res) => {
+//     res.json(hats);
+// };
 
-const getHatsByName = (req, res) => {
-    const name = req.params.name;
+// const getHatsByName = (req, res) => {
+//     const name = req.params.name;
 
-    res.json(hats.find(hat => hat.name.toLowerCase() === name.toLowerCase()));
-};
+//     res.json(hats.find(hat => hat.name.toLowerCase() === name.toLowerCase()));
+// };
 
-const getRings = (req, res) => {
-    res.json(rings);
-};
+// const getRings = (req, res) => {
+//     res.json(rings);
+// };
 
-const getRingsByName = (req, res) => {
-    const name = req.params.name;
+// const getRingsByName = (req, res) => {
+//     const name = req.params.name;
 
-    res.json(rings.find(ring => ring.name.toLowerCase() === name.toLowerCase()));
-};
+//     res.json(rings.find(ring => ring.name.toLowerCase() === name.toLowerCase()));
+// };
 
-const getRecipes = (req, res) => {
-    res.json(recipes);
-};
+// const getRecipes = (req, res) => {
+//     res.json(recipes);
+// };
 
-const getRecipesByName = (req, res) => {
-    const name = req.params.name;
+// const getRecipesByName = (req, res) => {
+//     const name = req.params.name;
 
-    res.json(recipes.find(recipe => recipe.name.toLowerCase() === name.toLowerCase()));
-};
+//     res.json(recipes.find(recipe => recipe.name.toLowerCase() === name.toLowerCase()));
+// };
 
-const getWeapons = (req, res) => {
-    const name = req.query.name;
-    const type = req.query.type;
+// const getWeapons = (req, res) => {
+//     const name = req.query.name;
+//     const type = req.query.type;
 
-    if(name) {
-        res.json(weapons.find(weapon => weapon.name.toLowerCase() === name.toLowerCase()));
-    }
-    else if(type) {
-        res.json(weapons.filter(weapon => weapon.type.toLowerCase() === type.toLowerCase()));
-    }
-    else {
-        res.json(weapons);
-    }
-};
+//     if(name) {
+//         res.json(weapons.find(weapon => weapon.name.toLowerCase() === name.toLowerCase()));
+//     }
+//     else if(type) {
+//         res.json(weapons.filter(weapon => weapon.type.toLowerCase() === type.toLowerCase()));
+//     }
+//     else {
+//         res.json(weapons);
+//     }
+// };
 
 
 app.get('/api/villagers', getVillagers);
 app.get('/api/minerals', getMinerals);
 app.get('/api/crops/', getCrops);
-app.get('/api/achievements/:name', getAchievementByName);
-app.get('/api/achievements', getAchievements);
-app.get('/api/artifacts/:name', getArtifactsByName);
-app.get('/api/artifacts', getArtifacts);
-app.get('/api/footwear/:name', getFootwearByName);
-app.get('/api/footwear', getFootwear);
-app.get('/api/hats/:name', getHatsByName);
-app.get('/api/hats', getHats);
-app.get('/api/rings/:name', getRingsByName);
-app.get('/api/rings', getRings);
-app.get('/api/recipes/:name', getRecipesByName);
-app.get('/api/recipes', getRecipes);
-app.get('/api/weapons', getWeapons);
+// app.get('/api/achievements/:name', getAchievementByName);
+// app.get('/api/achievements', getAchievements);
+// app.get('/api/artifacts/:name', getArtifactsByName);
+// app.get('/api/artifacts', getArtifacts);
+// app.get('/api/footwear/:name', getFootwearByName);
+// app.get('/api/footwear', getFootwear);
+// app.get('/api/hats/:name', getHatsByName);
+// app.get('/api/hats', getHats);
+// app.get('/api/rings/:name', getRingsByName);
+// app.get('/api/rings', getRings);
+// app.get('/api/recipes/:name', getRecipesByName);
+// app.get('/api/recipes', getRecipes);
+// app.get('/api/weapons', getWeapons);
 
 
 //  res.json(villagers.find(villager => villager.name.toLowerCase() === req.params.name.toLowerCase()));
