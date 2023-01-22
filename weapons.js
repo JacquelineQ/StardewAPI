@@ -1,6 +1,4 @@
 const weapons = [
-//types: sword, dagger, club, slingshot (slingshot ammo?), unobtainable
-//Need to change level from number type to string 
 {
     name: "Rusty-Sword",
     type: "Sword",
