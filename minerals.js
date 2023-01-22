@@ -1,10 +1,5 @@
 const minerals = [
-    //types: Foraged, gems, geode-minderals, geodes
-    //May have to update found and usedIn to be arrays containing references
-    //Will have to reorganize the usedIn answers, possibly use ; instead of ,
-    //May have to change foundIn to arrays of references
 
-    //Search by name and type 
 {
     name: "Quartz",
     type: "Foraged",
