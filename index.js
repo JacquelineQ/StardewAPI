@@ -8,9 +8,9 @@ const fish = require('./fish');
 const weapons = require('./weapons');
 const recipes = require('./recipes');
 const achievements = require('./achievements');
-
-
 const footwear = require('./footwear');
+
+
 const hats = require('./hats');
 const rings = require('./rings');
 
@@ -142,6 +142,17 @@ const getAchievements = (req, res) => {
     }
 }
 
+const getFootwear = (req, res) => {
+    const name = req.query.name;
+
+    if(name) {
+        res.json(footwear.find(foundFootwear => foundFootwear.name.toLowerCase() === name.toLowerCase()));
+    }
+    else {
+        res.json(footwear);
+    }
+}
+
 // const getAchievements = (req, res) => {
 //     res.json(achievements);
 // };
@@ -226,12 +237,13 @@ app.get('/api/artifacts', getArtifacts);
 app.get('/api/weapons', getWeapons);
 app.get('/api/recipes', getRecipes);
 app.get('/api/achievements', getAchievements);
+app.get('/api/footwear', getFootwear);
+
 
 
 // app.get('/api/achievements/:name', getAchievementByName);
 // app.get('/api/artifacts/:name', getArtifactsByName);
 // app.get('/api/footwear/:name', getFootwearByName);
-// app.get('/api/footwear', getFootwear);
 // app.get('/api/hats/:name', getHatsByName);
 // app.get('/api/hats', getHats);
 // app.get('/api/rings/:name', getRingsByName);
