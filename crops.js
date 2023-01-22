@@ -1,3 +1,8 @@
+// Not sure if I can resturn crops by grow season unless I set every season as a boolean 
+// Should I include Pierre and JojaMart seed prices?
+// Should I include value for each type of quality?
+
+
 const crops = [
 {
     name: "Blue-Jazz",
@@ -394,43 +399,7 @@ const crops = [
     growTime: "7 Days",
     regrowthTime: "N/A",
     imgSrc: "N/A"
-},
-{
-    name: "",
-    season: [""],
-    description: "",
-    notes: "",
-    growTime: "",
-    regrowthTime: "",
-    imgSrc: ""
-},
-{
-    name: "",
-    season: [""],
-    description: "",
-    notes: "",
-    growTime: "",
-    regrowthTime: "",
-    imgSrc: ""
-},
-{
-    name: "",
-    season: [""],
-    description: "",
-    notes: "",
-    growTime: "",
-    regrowthTime: "",
-    imgSrc: ""
-},
-{
-    name: "",
-    season: [""],
-    description: "",
-    notes: "",
-    growTime: "",
-    regrowthTime: "",
-    imgSrc: ""
-},
+}
 ];
 
 module.exports = crops;

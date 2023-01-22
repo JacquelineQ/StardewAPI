@@ -9,6 +9,7 @@ const hats = require('./hats');
 const rings = require('./rings');
 const recipes = require('./recipes');
 const weapons = require('./weapons');
+const crops = require('./crops');
 
 const app = express();
 
@@ -16,16 +17,32 @@ const app = express();
 const getVillagers = (req, res) => {
     const name = req.query.name; 
     const gender = req.query.gender;
+    const marriage = req.query.marriage;
+    const giftable = req.query.giftable;
 
     if(name) {
         res.json(villagers.find(villager => villager.name.toLowerCase() === name.toLowerCase()));   
     } else if(gender) {
         res.json(villagers.filter(villager => villager.gender.toLowerCase() === gender.toLowerCase()));
+    } else if (marriage) {
+        res.json(villagers.filter(villager => villager.marriage.toLowerCase() === marriage.toLowerCase()));
+    } else if (giftable) {
+        res.json(villagers.filter(villager => villager.giftable.toLowerCase() === giftable.toLowerCase()));
     }
     else {
     res.json(villagers);  
     }
 };
+
+const getCrops = (req, res) => {
+    const name = req.query.name;
+    const season = req.query.season;
+
+    if(name) {
+        res.json(crops.find(crop => crop.name.toLowerCase() === name.toLowerCase()));
+    } else if (season) {
+    }
+}
 
 const getMinerals = (req, res) => {
     const name = req.query.name;
@@ -120,6 +137,7 @@ const getWeapons = (req, res) => {
 
 app.get('/api/villagers', getVillagers);
 app.get('/api/minerals', getMinerals);
+app.get('/api/crops/', getCrops);
 app.get('/api/achievements/:name', getAchievementByName);
 app.get('/api/achievements', getAchievements);
 app.get('/api/artifacts/:name', getArtifactsByName);
