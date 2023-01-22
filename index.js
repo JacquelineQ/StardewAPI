@@ -41,8 +41,18 @@ const getCrops = (req, res) => {
     if(name) {
         res.json(crops.find(crop => crop.name.toLowerCase() === name.toLowerCase()));
     } else if (season) {
+        if (season.toLowerCase() === 'spring') {
+            res.json(crops.filter(crop => crop.growsSpring === true));
+        } else if (season.toLowerCase() === 'summer') {
+            res.json(crops.filter(crop => crop.growsSummer === true));
+        } else if (season.toLowerCase() === 'fall') {
+            res.json(crops.filter(crop => crop.growsFall === true));
+        }
+        else if (season.toLowerCase() === 'winter') {
+            res.json(crops.filter(crop => crop.growsWinter === true));
+        } 
     }
-}
+};
 
 const getMinerals = (req, res) => {
     const name = req.query.name;

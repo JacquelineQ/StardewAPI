@@ -1,6 +1,9 @@
 // Not sure if I can resturn crops by grow season unless I set every season as a boolean 
+// And I dont think that works either lmao
 // Should I include Pierre and JojaMart seed prices?
 // Should I include value for each type of quality?
+
+// Included seed prices, are a number type and are 0 if N/A (ie not available to purchase from Piere or Joja)
 
 
 const crops = [
@@ -12,6 +15,14 @@ const crops = [
     growsFall: false,
     growsWinter: false,
     description: "The flower grows in a sphere to invite as many butterflies as possible.",
+    pierreSeedPrice: 30,
+    jojaSeedPrice: 37, 
+    sellPrice: {
+        regular: 50,
+        silver: 62,
+        gold: 75,
+        iridium: 100
+    },
     notes: "N/A",
     growTime: "7 Days",
     regrowthTime: "N/A",
@@ -25,6 +36,14 @@ const crops = [
     growsFall: false,
     growsWinter: false,
     description: "Valuable, but slow-growing. Despite its pale color, the florets are packed with nutrients.",
+    pierreSeedPrice: 80,
+    jojaSeedPrice: 100, 
+    sellPrice: {
+        regular: 175,
+        silver: 218,
+        gold: 262,
+        iridium: 350
+    },
     notes: "Cauliflower can become a Giant Crop.",
     growTime: "12 Days",
     regrowthTime: "N/A",
@@ -38,7 +57,15 @@ const crops = [
     growsFall: false,
     growsWinter: false,
     description: "Plant in spring or summer to grow a coffee plant. Place five beans in a keg to make coffee.",
-    notes: "Each plant yields 4 beans per harvest with a small random chance for more beans.",
+    pierreSeedPrice: 0,
+    jojaSeedPrice: 0, 
+    sellPrice: {
+        regular: 15,
+        silver: 18,
+        gold: 22,
+        iridium: 30
+    },
+    notes: "Each plant yields 4 beans per harvest with a small random chance for more beans. Seeds available from Traveling Cart for 2,500g.",
     growTime: "10 Days",
     regrowthTime: "2 Days",
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/3/33/Coffee_Bean.png"
@@ -51,6 +78,14 @@ const crops = [
     growsFall: false,
     growsWinter: false,
     description: "Adds a wonderful zestiness to dishes. High quality garlic can be pretty spicy.",
+    pierreSeedPrice: 40,
+    jojaSeedPrice: 0, 
+    sellPrice: {
+        regular: 60,
+        silver: 75,
+        gold: 90,
+        iridium: 120
+    },
     notes: "Available from year 2+.",
     growTime: "4 Days",
     regrowthTime: "N/A",
