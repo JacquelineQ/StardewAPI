@@ -4,10 +4,10 @@ const weapons = [
 {
     name: "Rusty-Sword",
     type: "Sword",
-    level: 1,
+    level: "1",
     description: "A rusty, dull old sword.",
     damage: "2-5",
-    criticalStikeChance: .02,
+    criticalStikeChance: ".02",
     stats: "N/A",
     found: "The Mines entrance",
     purchasePrice: "N/A",
@@ -17,7 +17,7 @@ const weapons = [
 {
     name: "Steel-Smallsword",
     type: "Sword",
-    level: 1,
+    level: "1",
     description: "A standard metal blade.",
     damage: "4-8",
     criticalStikeChance: ".02",
@@ -30,7 +30,7 @@ const weapons = [
 {
     name: "Wooden-Blade",
     type: "Sword",
-    level: 1,
+    level: "1",
     description: "Not bad for a piece of carved wood.",
     damage: "3-7",
     criticalStikeChance: ".02",
@@ -43,7 +43,7 @@ const weapons = [
 {
     name: "Pirate's-Sword",
     type: "Sword",
-    level: 2,
+    level: "2",
     description: "It looks like a pirate owned this once.",
     damage: "8-14",
     criticalStikeChance: ".02",
@@ -56,7 +56,7 @@ const weapons = [
 {
     name: "Silver-Saber",
     type: "Sword",
-    level: 2,
+    level: "2",
     description: "Plated with silver to deter rust.",
     damage: "8-15",
     criticalStikeChance: ".02",
@@ -69,7 +69,7 @@ const weapons = [
 {
     name: "Cutlass",
     type: "Sword",
-    level: 3,
+    level: "3",
     description: "A finely crafted blade.",
     damage: "9-17",
     criticalStikeChance: ".02",
@@ -82,7 +82,7 @@ const weapons = [
 {
     name: "Forest-Sword",
     type: "Sword",
-    level: 3,
+    level: "3",
     description: "Made powerful by forest magic.",
     damage: "8-18",
     criticalStikeChance: ".02",
@@ -95,7 +95,7 @@ const weapons = [
 {
     name: "Iron-Edge",
     type: "Sword",
-    level: 3,
+    level: "3",
     description: "A heavy broadsword.",
     damage: "12-25",
     criticalStikeChance: ".02",
@@ -108,7 +108,7 @@ const weapons = [
 {
     name: "Insect-Head",
     type: "Sword",
-    level: 4,
+    level: "4",
     description: "Not very pleasant to wield.",
     damage: "10-20",
     criticalStikeChance: ".04",
@@ -121,7 +121,7 @@ const weapons = [
 {
     name: "Bone-Sword",
     type: "Sword",
-    level: 5,
+    level: "5",
     description: "A very light piece of sharpened bone.",
     damage: "20-30",
     criticalStikeChance: ".02",
@@ -134,7 +134,7 @@ const weapons = [
 {
     name: "Claymore",
     type: "Sword",
-    level: 5,
+    level: "5",
     description: "It's really heavy.",
     damage: "20-32",
     criticalStikeChance: ".02",
@@ -147,7 +147,7 @@ const weapons = [
 {
     name: "Neptune's-Glaive",
     type: "Sword",
-    level: 5,
+    level: "5",
     description: "An heirloom from beyond the Gem Sea.",
     damage: "18-35",
     criticalStikeChance: ".02",
@@ -160,7 +160,7 @@ const weapons = [
 {
     name: "Templar's-Blade",
     type: "Sword",
-    level: 5,
+    level: "5",
     description: "It once belonged to an honorable knight.",
     damage: "22-29",
     criticalStikeChance: "0",
@@ -173,7 +173,7 @@ const weapons = [
 {
     name: "Obsidian-Edge",
     type: "Sword",
-    level: 6,
+    level: "6",
     description: "It's incredibly sharp.",
     damage: "30-45",
     criticalStikeChance: ".02",
@@ -186,7 +186,7 @@ const weapons = [
 {
     name: "Ossified-Blade",
     type: "Sword",
-    level: 6,
+    level: "6",
     description: "A large, sharp blade formed from bone.",
     damage: "26-42",
     criticalStikeChance: ".02",
@@ -199,7 +199,7 @@ const weapons = [
 {
     name: "Tempered-Broadsword",
     type: "Sword",
-    level: 7,
+    level: "7",
     description: "It looks like it could withstand anything.",
     damage: "29-44",
     criticalStikeChance: ".02",
@@ -212,7 +212,7 @@ const weapons = [
 {
     name: "Yeti-Tooth",
     type: "Sword",
-    level: 7,
+    level: "7",
     description: "It's icy cold to the touch.",
     damage: "26-42",
     criticalStikeChance: ".02",
@@ -225,7 +225,7 @@ const weapons = [
 {
     name: "Steel-Falchion",
     type: "Sword",
-    level: 8,
+    level: "8",
     description: "Light and powerful.",
     damage: "28-46",
     criticalStikeChance: ".02",
@@ -238,7 +238,7 @@ const weapons = [
 {
     name: "Dark-Sword",
     type: "Sword",
-    level: 9,
+    level: "9",
     description: "It's glowing with vampire energy.",
     damage: "30-45",
     criticalStikeChance: ".04",
@@ -251,7 +251,7 @@ const weapons = [
 {
     name: "Lava-Katana",
     type: "Sword",
-    level: 10,
+    level: "10",
     description: "A powerful blade forged in a pool of churning lava.",
     damage: "55-64",
     criticalStikeChance: ".015",
@@ -264,7 +264,7 @@ const weapons = [
 {
     name: "Dragontooth-Cutlass",
     type: "Sword",
-    level: 13,
+    level: "13",
     description: "The blade was forged from a magical tooth.",
     damage: "75-90",
     criticalStikeChance: ".02",
@@ -277,7 +277,7 @@ const weapons = [
 {
     name: "Dwarf-Sword",
     type: "Sword",
-    level: 13,
+    level: "13",
     description: "It's ancient, but the blade never dulls.",
     damage: "65-75",
     criticalStikeChance: ".02",
@@ -290,7 +290,7 @@ const weapons = [
 {
     name: "Galaxy-Sword",
     type: "Sword",
-    level: 13,
+    level: "13",
     description: "It's unlike anything you've ever seen.",
     damage: "60-80",
     criticalStikeChance: "02",
@@ -303,7 +303,7 @@ const weapons = [
 {
     name: "Infinity-Blade",
     type: "Sword",
-    level: 17,
+    level: "17",
     description: "The true form of the Galaxy Sword.",
     damage: "80-100",
     criticalStikeChance: ".02",
@@ -316,7 +316,7 @@ const weapons = [
 {
     name: "Carving-Knife",
     type: "Dagger",
-    level: 1,
+    level: "1",
     description: "A small, light blade.",
     damage: "1-3",
     criticalStikeChance: ".04",
@@ -329,7 +329,7 @@ const weapons = [
 {
     name: "Iron-Dirk",
     type: "Dagger",
-    level: 1,
+    level: "1",
     description: "A common dagger.",
     damage: "2-4",
     criticalStikeChance: ".03",
@@ -342,7 +342,7 @@ const weapons = [
 {
     name: "Wind-Spire",
     type: "Dagger",
-    level: 1,
+    level: "1",
     description: "A swift little blade.",
     damage: "1-5",
     criticalStikeChance: ".02",
@@ -355,7 +355,7 @@ const weapons = [
 {
     name: "Elf-Blade",
     type: "Dagger",
-    level: 2,
+    level: "2",
     description: "Only the nimble hands of an elf could craft this.",
     damage: "3-5",
     criticalStikeChance: ".04",
@@ -368,7 +368,7 @@ const weapons = [
 {
     name: "Burglar's-Shank",
     type: "Dagger",
-    level: 4,
+    level: "4",
     description: "A weapon of choice for the swift and silent.",
     damage: "7-12",
     criticalStikeChance: ".04",
@@ -381,7 +381,7 @@ const weapons = [
 {
     name: "Crystal-Dagger",
     type: "Dagger",
-    level: 4,
+    level: "4",
     description: "The blade is made of purified quartz.",
     damage: "4-10",
     criticalStikeChance: ".03",
@@ -394,7 +394,7 @@ const weapons = [
 {
     name: "Shadow-Dagger",
     type: "Dagger",
-    level: 4,
+    level: "4",
     description: "When you hold the blade to your ear you can hear 1,000 souls shrieking.",
     damage: "10-20",
     criticalStikeChance: ".04",
@@ -407,7 +407,7 @@ const weapons = [
 {
     name: "Broken-Trident",
     type: "Dagger",
-    level: 5,
+    level: "5",
     description: "It came from the sea, but it's still sharp.",
     damage: "15-26",
     criticalStikeChance: ".02",
@@ -420,7 +420,7 @@ const weapons = [
 {
     name: "Wicked-Kris",
     type: "Dagger",
-    level: 8,
+    level: "8",
     description: "The blade is made of an iridium alloy.",
     damage: "24-30",
     criticalStikeChance: ".06",
@@ -433,7 +433,7 @@ const weapons = [
 {
     name: "Galaxy-Dagger",
     type: "Dagger",
-    level: 8,
+    level: "8",
     description: "It's unlike anything you've seen.",
     damage: "30-40",
     criticalStikeChance: ".02",
@@ -446,7 +446,7 @@ const weapons = [
 {
     name: "Dwarf-Dagger",
     type: "Dagger",
-    level: 11,
+    level: "11",
     description: "It's ancient, but the blade never dulls.",
     damage: "32-38",
     criticalStikeChance: ".03",
@@ -459,7 +459,7 @@ const weapons = [
 {
     name: "Dwarf-Dagger",
     type: "Dagger",
-    level: 11,
+    level: "11",
     description: "It's ancient, but the blade never dulls.",
     damage: "32-38",
     criticalStikeChance: ".03",
@@ -472,7 +472,7 @@ const weapons = [
 {
     name: "Dragontooth-Shiv",
     type: "Dagger",
-    level: 12,
+    level: "12",
     description: "The blade was forged from a magical tooth.",
     damage: "40-50",
     criticalStikeChance: ".05",
@@ -485,7 +485,7 @@ const weapons = [
 {
     name: "Iridium-Needle",
     type: "Dagger",
-    level: 12,
+    level: "12",
     description: "The point is unbelievably sharp, even down to the atomic level",
     damage: "20-35",
     criticalStikeChance: "0.1",
@@ -498,7 +498,7 @@ const weapons = [
 {
     name: "Infinity-Dagger",
     type: "Dagger",
-    level: 16,
+    level: "16",
     description: "The true form of the Galaxy Dagger.",
     damage: "50-70",
     criticalStikeChance: ".06",
@@ -511,7 +511,7 @@ const weapons = [
 {
     name: "Femur",
     type: "Club",
-    level: 2,
+    level: "2",
     description: "An old, heavy bone caked in centuries of grime.",
     damage: "6-11",
     criticalStikeChance: ".02",
@@ -524,7 +524,7 @@ const weapons = [
 {
     name: "Wood-Club",
     type: "Club",
-    level: 2,
+    level: "2",
     description: "A solid piece of wood, crudely chiseled into a club shape.",
     damage: "9-16",
     criticalStikeChance: ".02",
@@ -537,7 +537,7 @@ const weapons = [
 {
     name: "Wood-Mallet",
     type: "Club",
-    level: 3,
+    level: "3",
     description: "The solid head packs a punch. Relatively light for a club.",
     damage: "15-24",
     criticalStikeChance: ".02",
@@ -550,7 +550,7 @@ const weapons = [
 {
     name: "Lead-Rod",
     type: "Club",
-    level: 4,
+    level: "4",
     description: "It's incredibly heavy.",
     damage: "18-27",
     criticalStikeChance: ".02",
@@ -563,7 +563,7 @@ const weapons = [
 {
     name: "Kudgel",
     type: "Club",
-    level: 5,
+    level: "5",
     description: "A brute's companion.",
     damage: "27-40",
     criticalStikeChance: ".02",
@@ -576,7 +576,7 @@ const weapons = [
 {
     name: "The-Slammer",
     type: "Club",
-    level: 7,
+    level: "7",
     description: "An extremely heavy gavel that'll send foes flying.",
     damage: "40-55",
     criticalStikeChance: ".02",
@@ -589,7 +589,7 @@ const weapons = [
 {
     name: "Galaxy-Hammer",
     type: "Club",
-    level: 12,
+    level: "12",
     description: "It's made from an ultra-light material you've never seen before.",
     damage: "70-90",
     criticalStikeChance: ".02",
@@ -602,7 +602,7 @@ const weapons = [
 {
     name: "Dwarf-Hammer",
     type: "Club",
-    level: 13,
+    level: "13",
     description: "It emits a very faint whirring sound.",
     damage: "75-85",
     criticalStikeChance: ".02",
@@ -615,7 +615,7 @@ const weapons = [
 {
     name: "Dragontooth-Club",
     type: "Club",
-    level: 14,
+    level: "14",
     description: "This club was crafted from a magical tooth.",
     damage: "80-100",
     criticalStikeChance: ".02",
@@ -628,7 +628,7 @@ const weapons = [
 {
     name: "Infinity-Gavel",
     type: "Club",
-    level: 17,
+    level: "17",
     description: "The true form of the Galaxy Hammer.",
     damage: "100-120",
     criticalStikeChance: ".02",

@@ -2,15 +2,17 @@ const express = require('express');
 const path = require('path');
 const villagers = require('./villagers');
 const minerals = require('./minerals');
-const achievements = require('./achievements');
 const artifacts = require('./artifacts');
+const crops = require('./crops');
+const fish = require('./fish');
+const weapons = require('./weapons');
+
+
+const achievements = require('./achievements');
 const footwear = require('./footwear');
 const hats = require('./hats');
 const rings = require('./rings');
 const recipes = require('./recipes');
-const weapons = require('./weapons');
-const crops = require('./crops');
-const fish = require('./fish');
 
 const app = express();
 
@@ -103,6 +105,21 @@ const getArtifacts = (req, res) => {
 
 };
 
+const getWeapons = (req, res) => {
+    const name = req.query.name;
+    const type = req.query.type;
+
+    if(name) {
+        res.json(weapons.find(weapon => weapon.name.toLowerCase() === name.toLowerCase()));
+    }
+    else if(type) {
+        res.json(weapons.filter(weapon => weapon.type.toLowerCase() === type.toLowerCase()));
+    }
+    else {
+        res.json(weapons);
+    }
+}
+
 // const getAchievements = (req, res) => {
 //     res.json(achievements);
 // };
@@ -184,6 +201,8 @@ app.get('/api/minerals', getMinerals);
 app.get('/api/crops/', getCrops);
 app.get('/api/fish', getFish);
 app.get('/api/artifacts', getArtifacts);
+app.get('/api/weapons', getWeapons);
+
 
 // app.get('/api/achievements/:name', getAchievementByName);
 // app.get('/api/achievements', getAchievements);
@@ -196,7 +215,6 @@ app.get('/api/artifacts', getArtifacts);
 // app.get('/api/rings', getRings);
 // app.get('/api/recipes/:name', getRecipesByName);
 // app.get('/api/recipes', getRecipes);
-// app.get('/api/weapons', getWeapons);
 
 
 //  res.json(villagers.find(villager => villager.name.toLowerCase() === req.params.name.toLowerCase()));
