@@ -40,7 +40,9 @@ const getCrops = (req, res) => {
 
     if(name) {
         res.json(crops.find(crop => crop.name.toLowerCase() === name.toLowerCase()));
-    } else if (season) {
+        } 
+        
+    else if (season) {
         if (season.toLowerCase() === 'spring') {
             res.json(crops.filter(crop => crop.growsSpring === true));
         } else if (season.toLowerCase() === 'summer') {
@@ -51,6 +53,10 @@ const getCrops = (req, res) => {
         else if (season.toLowerCase() === 'winter') {
             res.json(crops.filter(crop => crop.growsWinter === true));
         } 
+    }
+
+    else {
+        res.json(crops);
     }
 };
 
