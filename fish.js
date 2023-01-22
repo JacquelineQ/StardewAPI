@@ -913,7 +913,7 @@ const fish = [
     difficulty: "N/A",
     behavior: "N/A",
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/5/54/Oyster.png"
-},
+}
 ];
 
 module.exports = fish;

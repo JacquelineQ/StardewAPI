@@ -10,6 +10,7 @@ const rings = require('./rings');
 const recipes = require('./recipes');
 const weapons = require('./weapons');
 const crops = require('./crops');
+const fish = require('./fish');
 
 const app = express();
 
@@ -72,6 +73,21 @@ const getMinerals = (req, res) => {
     }
     else {
         res.json(minerals);
+    }
+};
+
+const getFish = (req, res) => {
+    const name = req.query.name;
+    const type = req.query.type;
+
+    if(name) {
+        res.json(fish.find(foundFish => foundFish.name.toLowerCase() === name.toLowerCase()));
+    }
+    else if(type) {
+        res.json(fish.filter(foundFish => foundFish.type.toLowerCase() === type.toLowerCase()));
+    }
+    else {
+        res.json(fish);
     }
 };
 
@@ -154,6 +170,7 @@ const getMinerals = (req, res) => {
 app.get('/api/villagers', getVillagers);
 app.get('/api/minerals', getMinerals);
 app.get('/api/crops/', getCrops);
+app.get('/api/fish', getFish);
 // app.get('/api/achievements/:name', getAchievementByName);
 // app.get('/api/achievements', getAchievements);
 // app.get('/api/artifacts/:name', getArtifactsByName);
