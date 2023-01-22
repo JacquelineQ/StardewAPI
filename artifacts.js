@@ -1,12 +1,15 @@
 const artifacts = [
-    //42
-    //Do I want to include percentages in location? Set as array or object?
-    //I wrote the names here with - instead of spaces unlike other files, need to make a decision
 {
     name: "Ambhibian-Fossil",
     description: "The relatively short hind legs suggest some kind of primordial toad.",
     sellPrice: "150g",
     location: "Forest (0.6%), Mountain (0.6%), Fishing Chest (3.1-3.4%), Bone Nodes (0.8%)",
+    // location: {
+    //     "Forest": "0.6%",
+    //     "Mountain": "0.6%",
+    //     "Fishing-Chest": "3.1-3.4%",
+    //     "Bone-Nodes": "0.8%"
+    // },
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/c/cf/Amphibian_Fossil.png"
 },
 {

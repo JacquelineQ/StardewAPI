@@ -91,6 +91,18 @@ const getFish = (req, res) => {
     }
 };
 
+const getArtifacts = (req, res) => {
+    const name = req.query.name;
+
+    if(name) {
+        res.json(artifacts.find(artifact => artifact.name.toLowerCase() === name.toLowerCase()));
+    }
+    else {
+        res.json(artifacts);
+    }
+
+};
+
 // const getAchievements = (req, res) => {
 //     res.json(achievements);
 // };
@@ -171,10 +183,11 @@ app.get('/api/villagers', getVillagers);
 app.get('/api/minerals', getMinerals);
 app.get('/api/crops/', getCrops);
 app.get('/api/fish', getFish);
+app.get('/api/artifacts', getArtifacts);
+
 // app.get('/api/achievements/:name', getAchievementByName);
 // app.get('/api/achievements', getAchievements);
 // app.get('/api/artifacts/:name', getArtifactsByName);
-// app.get('/api/artifacts', getArtifacts);
 // app.get('/api/footwear/:name', getFootwearByName);
 // app.get('/api/footwear', getFootwear);
 // app.get('/api/hats/:name', getHatsByName);
