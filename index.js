@@ -120,6 +120,17 @@ const getWeapons = (req, res) => {
     }
 }
 
+const getRecipes = (req, res) => {
+    const name = req.query.name;
+
+    if(name) {
+        res.json(recipes.find(recipe => recipe.name.toLocaleLowerCase() === name.toLowerCase()));
+    }
+    else {
+        res.json(recipes);
+    }
+};
+
 // const getAchievements = (req, res) => {
 //     res.json(achievements);
 // };
@@ -202,6 +213,7 @@ app.get('/api/crops/', getCrops);
 app.get('/api/fish', getFish);
 app.get('/api/artifacts', getArtifacts);
 app.get('/api/weapons', getWeapons);
+app.get('/api/recipes', getRecipes);
 
 
 // app.get('/api/achievements/:name', getAchievementByName);
@@ -214,7 +226,6 @@ app.get('/api/weapons', getWeapons);
 // app.get('/api/rings/:name', getRingsByName);
 // app.get('/api/rings', getRings);
 // app.get('/api/recipes/:name', getRecipesByName);
-// app.get('/api/recipes', getRecipes);
 
 
 //  res.json(villagers.find(villager => villager.name.toLowerCase() === req.params.name.toLowerCase()));
