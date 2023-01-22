@@ -6,13 +6,13 @@ const artifacts = require('./artifacts');
 const crops = require('./crops');
 const fish = require('./fish');
 const weapons = require('./weapons');
-
-
+const recipes = require('./recipes');
 const achievements = require('./achievements');
+
+
 const footwear = require('./footwear');
 const hats = require('./hats');
 const rings = require('./rings');
-const recipes = require('./recipes');
 
 const app = express();
 
@@ -124,12 +124,23 @@ const getRecipes = (req, res) => {
     const name = req.query.name;
 
     if(name) {
-        res.json(recipes.find(recipe => recipe.name.toLocaleLowerCase() === name.toLowerCase()));
+        res.json(recipes.find(recipe => recipe.name.toLowerCase() === name.toLowerCase()));
     }
     else {
         res.json(recipes);
     }
 };
+
+const getAchievements = (req, res) => {
+    const name = req.query.name;
+
+    if(name) {
+        res.json(achievements.find(achievement => achievement.name.toLowerCase() === name.toLowerCase()));
+    }
+    else {
+        res.json(achievements);
+    }
+}
 
 // const getAchievements = (req, res) => {
 //     res.json(achievements);
@@ -214,10 +225,10 @@ app.get('/api/fish', getFish);
 app.get('/api/artifacts', getArtifacts);
 app.get('/api/weapons', getWeapons);
 app.get('/api/recipes', getRecipes);
+app.get('/api/achievements', getAchievements);
 
 
 // app.get('/api/achievements/:name', getAchievementByName);
-// app.get('/api/achievements', getAchievements);
 // app.get('/api/artifacts/:name', getArtifactsByName);
 // app.get('/api/footwear/:name', getFootwearByName);
 // app.get('/api/footwear', getFootwear);
