@@ -11,7 +11,6 @@
 const crops = [
 {
     name: "Blue-Jazz",
-    season: "Spring",
     growsSpring: true,
     growsSummer: false,
     growsFall: false,
@@ -25,7 +24,6 @@ const crops = [
 },
 {
     name: "Cauliflower",
-    season: "Spring",
     growsSpring: true,
     growsSummer: false,
     growsFall: false,
@@ -39,7 +37,6 @@ const crops = [
 },
 {
     name: "Coffee-Bean",
-    season: "Spring, Summer",
     growsSpring: true,
     growsSummer: true,
     growsFall: false,
@@ -53,7 +50,6 @@ const crops = [
 },
 {
     name: "Garlic",
-    season: "Spring",
     growsSpring: true,
     growsSummer: false,
     growsFall: false,
@@ -67,7 +63,6 @@ const crops = [
 },
 {
     name: "Green-Bean",
-    season: "Spring",
     growsSpring: true,
     growsSummer: false,
     growsFall: false,
@@ -81,7 +76,6 @@ const crops = [
 },
 {
     name: "Kale",
-    season: "Spring",
     growsSpring: true,
     growsSummer: false,
     growsFall: false,
@@ -95,7 +89,6 @@ const crops = [
 },
 {
     name: "Parsnip",
-    season: "Spring",
     growsSpring: true,
     growsSummer: false,
     growsFall: false,
@@ -109,7 +102,6 @@ const crops = [
 },
 {
     name: "Potato",
-    season: "Spring",
     growsSpring: true,
     growsSummer: false,
     growsFall: false,
@@ -123,7 +115,6 @@ const crops = [
 },
 {
     name: "Rhubarb",
-    season: "Spring",
     growsSpring: true,
     growsSummer: false,
     growsFall: false,
@@ -137,7 +128,6 @@ const crops = [
 },
 {
     name: "Strawberry",
-    season: "Spring",
     growsSpring: true,
     growsSummer: false,
     growsFall: false,
@@ -151,7 +141,6 @@ const crops = [
 },
 {
     name: "Tulip",
-    season: "Spring",
     growsSpring: true,
     growsSummer: false,
     growsFall: false,
@@ -165,7 +154,6 @@ const crops = [
 },
 {
     name: "Unmilled-Rice",
-    season: "Spring",
     growsSpring: true,
     growsSummer: false,
     growsFall: false,
@@ -179,7 +167,6 @@ const crops = [
 },
 {
     name: "Blueberry",
-    season: "Summer",
     growsSpring: false,
     growsSummer: true,
     growsFall: false,
@@ -193,7 +180,6 @@ const crops = [
 },
 {
     name: "Corn",
-    season: "Summer, Fall",
     growsSpring: false,
     growsSummer: true,
     growsFall: true,
@@ -207,7 +193,6 @@ const crops = [
 },
 {
     name: "Hops",
-    season: "Summer",
     growsSpring: false,
     growsSummer: true,
     growsFall: false,
@@ -221,7 +206,6 @@ const crops = [
 },
 {
     name: "Hot-Pepper",
-    season: "Summer",
     growsSpring: false,
     growsSummer: true,
     growsFall: false,
@@ -235,7 +219,6 @@ const crops = [
 },
 {
     name: "Melon",
-    season: "Summer",
     growsSpring: false,
     growsSummer: true,
     growsFall: false,
@@ -249,7 +232,6 @@ const crops = [
 },
 {
     name: "Poppy",
-    season: "Summer",
     growsSpring: false,
     growsSummer: true,
     growsFall: false,
@@ -263,7 +245,6 @@ const crops = [
 },
 {
     name: "Radish",
-    season: "Summer",
     growsSpring: false,
     growsSummer: true,
     growsFall: false,
@@ -277,7 +258,6 @@ const crops = [
 },
 {
     name: "Red-Cabbage",
-    season: "Summer",
     growsSpring: false,
     growsSummer: true,
     growsFall: false,
@@ -291,7 +271,6 @@ const crops = [
 },
 {
     name: "Starfruit",
-    season: "Summer",
     growsSpring: false,
     growsSummer: true,
     growsFall: false,
@@ -305,7 +284,6 @@ const crops = [
 },
 {
     name: "Summer-Spangle",
-    season: "Summer",
     growsSpring: false,
     growsSummer: true,
     growsFall: false,
@@ -315,11 +293,10 @@ const crops = [
     notes: "N/A",
     growTime: "8 Days",
     regrowthTime: "N/A",
-    imgSrc: ""
+    imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/9f/Summer_Spangle.png"
 },
 {
     name: "Sunflower",
-    season: "Summer, Fall",
     growsSpring: false,
     growsSummer: true,
     growsFall: true,
@@ -333,7 +310,6 @@ const crops = [
 },
 {
     name: "Tomato",
-    season: "Summer",
     growsSpring: false,
     growsSummer: true,
     growsFall: false,
@@ -347,7 +323,6 @@ const crops = [
 },
 {
     name: "Wheat",
-    season: "Summer, Fall",
     growsSpring: false,
     growsSummer: true,
     growsFall: true,
@@ -361,7 +336,6 @@ const crops = [
 },
 {
     name: "Amaranth",
-    season: "Fall",
     growsSpring: false,
     growsSummer: false,
     growsFall: true,
@@ -375,7 +349,6 @@ const crops = [
 },
 {
     name: "Artichoke",
-    season: "Fall",
     growsSpring: false,
     growsSummer: false,
     growsFall: true,
@@ -389,7 +362,6 @@ const crops = [
 },
 {
     name: "Beet",
-    season: "Fall",
     growsSpring: false,
     growsSummer: false,
     growsFall: true,
@@ -403,7 +375,6 @@ const crops = [
 },
 {
     name: "Bok Choy",
-    season: "Fall",
     growsSpring: false,
     growsSummer: false,
     growsFall: true,
@@ -417,7 +388,6 @@ const crops = [
 },
 {
     name: "Cranberries",
-    season: "Fall",
     growsSpring: false,
     growsSummer: false,
     growsFall: true,
@@ -431,7 +401,6 @@ const crops = [
 },
 {
     name: "Eggplant",
-    season: "Fall",
     growsSpring: false,
     growsSummer: false,
     growsFall: true,
@@ -445,7 +414,6 @@ const crops = [
 },
 {
     name: "Fairy-Rose",
-    season: "Fall",
     growsSpring: false,
     growsSummer: false,
     growsFall: true,
@@ -459,7 +427,6 @@ const crops = [
 },
 {
     name: "Grape",
-    season: "Fall",
     growsSpring: false,
     growsSummer: false,
     growsFall: true,
@@ -473,7 +440,6 @@ const crops = [
 },
 {
     name: "Pumpkin",
-    season: "Fall",
     growsSpring: false,
     growsSummer: false,
     growsFall: true,
@@ -487,7 +453,6 @@ const crops = [
 },
 {
     name: "Yam",
-    season: "Fall",
     growsSpring: false,
     growsSummer: false,
     growsFall: true,
@@ -501,7 +466,6 @@ const crops = [
 },
 {
     name: "Ancient-Fruit",
-    season: "Spring, Summer, Fall",
     growsSpring: true,
     growsSummer: true,
     growsFall: true,
@@ -516,6 +480,10 @@ const crops = [
 {
     name: "Cactus-Fruit",
     season: "N/A",
+    growsSpring: false,
+    growsSummer: false,
+    growsFall: false,
+    growsWinter: false,
     description: "The sweet fruit of the prickly pear cactus.",
     sellPrice: "regular: 75, silver: 93, gold: 112, iridium: 150",
     notes: "Can only be grown in the Greenhouse, indoors in Garden Pots, or the Ginger Island farm. Seeds can be purchases at Oasis. Can also be found as a foraged item in Calico Desert.",
@@ -525,7 +493,6 @@ const crops = [
 },
 {
     name: "Fiber",
-    season: "Spring, Summer, Fall, Winter",
     growsSpring: true,
     growsSummer: true,
     growsFall: true,
@@ -539,7 +506,6 @@ const crops = [
 },
 {
     name: "Mixed-Seeds",
-    season: "Spring, Fall, Summer",
     growsSpring: true,
     growsSummer: true,
     growsFall: true,
@@ -553,7 +519,10 @@ const crops = [
 },
 {
     name: "Pineapple",
-    season: "Summer",
+    growsSpring: false,
+    growsSummer: true,
+    growsFall: false,
+    growsWinter: false,
     description: "A sweet and tangy tropical treat.",
     sellPrice: "regular: 300, silver: 375, gold: 450, iridium: 600",
     notes: "Grows in Summer if planted on the The Farm and all year on Ginger Island.",
@@ -563,7 +532,6 @@ const crops = [
 },
 {
     name: "Taro-Root",
-    season: "Summer",
     growsSpring: false,
     growsSummer: true,
     growsFall: false,
@@ -577,7 +545,6 @@ const crops = [
 },
 {
     name: "Sweet-Gem-Berry",
-    season: "Fall",
     growsSpring: false,
     growsSummer: false,
     growsFall: true,
@@ -592,8 +559,8 @@ const crops = [
 {
     name: "Tea-Leaves",
     season: "Spring, Summer, Fall",
-    growsSpring: false,
-    growsSummer: false,
+    growsSpring: true,
+    growsSummer: true,
     growsFall: true,
     growsWinter: false,
     description: "The young leaves of the tea plant. Can be brewed into the popular, energizing beverage.",
@@ -605,9 +572,8 @@ const crops = [
 },
 {
     name: "Wild-Seeds",
-    season: "Spring, Summer, Fall, Winter",
-    growsSpring: false,
-    growsSummer: false,
+    growsSpring: true,
+    growsSummer: true,
     growsFall: true,
     growsWinter: false,
     description: "N/A",
@@ -616,7 +582,6 @@ const crops = [
     growTime: "7 Days",
     regrowthTime: "N/A",
     imgSrc: "N/A"
-"
-];
+}];
 
 module.exports = crops;
