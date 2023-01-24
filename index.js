@@ -25,15 +25,18 @@ const getVillagers = (req, res) => {
 
     if(name) {
         res.json(villagers.find(villager => villager.name.toLowerCase() === name.toLowerCase()));   
-    } else if(gender) {
+    } 
+    else if(gender) {
         res.json(villagers.filter(villager => villager.gender.toLowerCase() === gender.toLowerCase()));
-    } else if (marriage) {
+    } 
+    else if (marriage) {
         res.json(villagers.filter(villager => villager.marriage.toLowerCase() === marriage.toLowerCase()));
-    } else if (giftable) {
+    } 
+    else if (giftable) {
         res.json(villagers.filter(villager => villager.giftable.toLowerCase() === giftable.toLowerCase()));
     }
     else {
-    res.json(villagers);  
+        res.json(villagers);  
     }
 };
 
