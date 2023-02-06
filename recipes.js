@@ -4,8 +4,8 @@ const recipes = [
 {
     name: "Algae-Soup",
     description: "It's a little slimy.",
-    ingredients: {"Green Algae": 4},
-    restores: {Energy: 75, Health: 33},
+    ingredients: "Green Algae: 4",
+    restores: "Energy: 75, Health: 33",
     source: "Clint (3+ Hearts)",
     sellPrice: "100g",
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/5/53/Algae_Soup.png"
@@ -13,8 +13,8 @@ const recipes = [
 {
     name: "Artichoke-Dip",
     description: "It's cool and refreshing.",
-    ingredients: {"Artichoke": 1, "Milk": 1},
-    restores: {Energy: +100, Health: +45},
+    ingredients: "Artichoke: 1, Milk: 1",
+    restores: "Energy: +100, Health: +45",
     source: "The Queen of Sauce: 28 Fall, Year 1",
     sellPrice: "210g",
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/7/77/Artichoke_Dip.png"
@@ -22,9 +22,9 @@ const recipes = [
 {
     name: "Autumn's-Bounty",
     description: "A taste of the season.",
-    ingredients: {"Yam": 1, "Pumpkin": 1},
-    restores: {Energy: +220, Health: +99},
-    buffs: {Foraging: +2, Defense: +2},
+    ingredients: "Yam: 1, Pumpkin: 1",
+    restores: "Energy: +220, Health: +99",
+    buffs: "Foraging: +2, Defense: +2",
     buffDuration: "7m 41s",
     source: "Demetrius (7+ Hearts)",
     sellPrice: "350g",
@@ -33,8 +33,8 @@ const recipes = [
 {
     name: "Baked-Fish",
     description: "Baked fish on a bed of herbs.",
-    ingredients: {"Sunfish": 1, "Bream": 1, "Wheat Flour": 1},
-    restores: {Energy: +75, Health: +33},
+    ingredients: "Sunfish: 1, Bream: 1, Wheat Flour: 1",
+    restores: "Energy: +75, Health: +33",
     source: "The Queen of Sauce: 7 Summer, Year 1",
     sellPrice: "100g",
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/94/Baked_Fish.png"
@@ -42,9 +42,9 @@ const recipes = [
 {
     name: "Banana-Pudding",
     description: "A creamy dessert with a wonderful tropical flavor.",
-    ingredients: {"Banana": 1, "Milk": 1, "Sugar": 1},
-    restores: {Energy: +125, Health: +56},
-    buffs: {Mining: +1, Luck: +1, Defense: +1},
+    ingredients: "Banana: 1, Milk: 1, Sugar: 1",
+    restores: "Energy: +125, Health: +56",
+    buffs: "Mining: +1, Luck: +1, Defense: +1",
     buffDuration: "5m 1s",
     source: "Island Trader for Bone Fragment (30)",
     sellPrice: "260g",
@@ -53,9 +53,9 @@ const recipes = [
 {
     name: "Bean-Hotpot",
     description: "It sure is healthy",
-    ingredients: {"Green Bean": 2},
-    restores: {Energy: +125, Health: +56},
-    buffs: {MaxEnergy: +30, Magnetism: +32},
+    ingredients: "Green Bean: 2",
+    restores: "Energy: +125, Health: +56",
+    buffs: "MaxEnergy: +30, Magnetism: +32",
     buffDuration: "7m",
     source: "Clint (7+ Hearts)",
     sellPrice: "100g",
@@ -64,7 +64,7 @@ const recipes = [
 {
     name: "Blackberry-Cobbler",
     description: "There's nothing quite like it.",
-    ingredients: {"Blackberry": 2, "Sugar": 1, "Wheat Flour": 1},
+    ingredients: "Blackberry: 2, Sugar: 1, Wheat Flour: 1",
     restores: {Energy: +175, Health: +78},
     source: "The Queen of Sauce: 14 Fall, Year 2",
     sellPrice: "260g",
@@ -73,8 +73,8 @@ const recipes = [
 {
     name: "Blueberry-Tar",
     description: "It's subtle and refreshing.",
-    ingredients: {"Blueberry": 1, "Wheat Flour": 1, "Sugar": 1},
-    restores: {Energy: +125, Health: +56},
+    ingredients: "Blueberry: 1, Wheat Flour: 1, Sugar: 1",
+    restores: "Energy: +125, Health: +56",
     source: "Pierre (3+ Hearts)",
     sellPrice: 150,
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/9b/Blueberry_Tart.png"
@@ -82,7 +82,7 @@ const recipes = [
 {
     name: "Bread",
     description: "A crusty baguette.",
-    ingredients: {"Wheat Flour": 1},
+    ingredients: "Wheat Flour: 1",
     restores: {Energy: +50, Health: +22},
     source: ["The Queen of Sauce: 28 Summer, Year 1", "Stardrop Saloon: 100g"],
     sellPrice: 60,
@@ -783,7 +783,7 @@ const recipes = [
     name: "Trout-Soup",
     description: "Pretty Salty",
     ingredients: {"Rainbow Trout": 1, "Green Algae": 1},
-    restores: {Energy: 100, Health: 45},
+    restores: "Energy: 100, Health: 45},
     buffs: {Fishing: +1},
     buffDuration: "4m 39s",
     source: "The Queen of Sauce: 14 Fall, Year 1",
