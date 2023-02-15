@@ -64,7 +64,7 @@ const recipes = [
 {
     name: "Blackberry-Cobbler",
     description: "There's nothing quite like it.",
-    ingredients: "Blackberry: 2, Sugar: 1, Wheat Flour: 1",
+    ingredients: {Blackberry: 2, Sugar: 1, Wheat Flour: 1},
     restores: {Energy: +175, Health: +78},
     source: "The Queen of Sauce: 14 Fall, Year 2",
     sellPrice: "260g",
@@ -74,7 +74,7 @@ const recipes = [
     name: "Blueberry-Tar",
     description: "It's subtle and refreshing.",
     ingredients: "Blueberry: 1, Wheat Flour: 1, Sugar: 1",
-    restores: "Energy: +125, Health: +56",
+    restores: {Energy: +125, Health: +56},
     source: "Pierre (3+ Hearts)",
     sellPrice: 150,
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/9/9b/Blueberry_Tart.png"

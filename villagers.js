@@ -224,8 +224,7 @@ const villagers = [
     birthday: "Fall 11",
     livesIn: "Pelican Town",
     address: "1 Willow Lane",
-    bestGifts: ["Chocolate Cake", "Crispy Bass", "Diamond", "Eggplant Parmesan", 
-                "Fried Eel", "Pancakes", "Rhubarb Pie", "Vegetable Medley"],
+    bestGifts: ["Chocolate Cake", "Crispy Bass", "Diamond", "Eggplant Parmesan", "Fried Eel", "Pancakes", "Rhubarb Pie", "Vegetable Medley"],
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/4/41/Jodi.png"
 },
 {
