@@ -64,7 +64,7 @@ const recipes = [
 {
     name: "Blackberry-Cobbler",
     description: "There's nothing quite like it.",
-    ingredients: {Blackberry: 2, Sugar: 1, Wheat Flour: 1},
+    ingredients: {Blackberry: 2, Sugar: 1, WheatFlour: 1},
     restores: {Energy: +175, Health: +78},
     source: "The Queen of Sauce: 14 Fall, Year 2",
     sellPrice: "260g",
@@ -783,7 +783,7 @@ const recipes = [
     name: "Trout-Soup",
     description: "Pretty Salty",
     ingredients: {"Rainbow Trout": 1, "Green Algae": 1},
-    restores: "Energy: 100, Health: 45},
+    restores: {Energy: 100, Health: 45},
     buffs: {Fishing: +1},
     buffDuration: "4m 39s",
     source: "The Queen of Sauce: 14 Fall, Year 1",
