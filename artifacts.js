@@ -4,12 +4,6 @@ const artifacts = [
     description: "The relatively short hind legs suggest some kind of primordial toad.",
     sellPrice: "150g",
     location: "Forest (0.6%), Mountain (0.6%), Fishing Chest (3.1-3.4%), Bone Nodes (0.8%)",
-    // location: {
-    //     "Forest": "0.6%",
-    //     "Mountain": "0.6%",
-    //     "Fishing-Chest": "3.1-3.4%",
-    //     "Bone-Nodes": "0.8%"
-    // },
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/c/cf/Amphibian_Fossil.png"
 },
 {
@@ -279,7 +273,7 @@ const artifacts = [
     imgSrc: "https://stardewvalleywiki.com/mediawiki/images/2/29/Skeletal_Tail.png"
 },
 {
-    name: "Strange-Doll", //Not sure how to distinguish the two different strange dolls with the same name
+    name: "Strange-Doll", 
     description: "???",
     sellPrice: "1,000g",
     location: "Farm (0.08%), Bus Stop (0.07%), Town (0.07%), Forest (0.06%), Mountain (0.06%), Beach (0.06%), Tilling in Mines/Skull Cavern (any floor) (0.03%), Fishing Chest (≈0.14%), Secret Note #17",
