@@ -397,7 +397,7 @@ const weapons = [
     "damage": "10-20",
     "criticalStrikeChance": ".04",
     "stats": "Crit. Chance (+2)",
-    "found": "The Mines floor 80 chest reward (remixed mine rewards only), The Mines (Floors 61-79, 101-119)	",
+    "found": "The Mines floor 80 chest reward (remixed mine rewards only), The Mines (Floors 61-79, 101-119)",
     "purchasePrice": "N/A",
     "sellPrice": "200g",
     "imgSrc": "https://stardewvalleywiki.com/mediawiki/images/4/47/Shadow_Dagger.png"
